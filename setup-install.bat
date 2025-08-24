@@ -1,53 +1,100 @@
 @echo off
 echo.
 echo ===============================================
-echo  TWoW Paladin Simulator - Zero Install Setup
+echo  TWoW Paladin Simulator Setup
 echo ===============================================
 echo.
-echo This setup downloads a PRE-BUILT version!
-echo No Node.js, npm, or build process required!
+echo This setup will build the simulator for you!
+echo No pre-installed software required!
 echo.
 
-:: Create downloads directory
-if not exist "downloads" mkdir downloads
+:: Create temp directory for downloads
+if not exist "temp" mkdir temp
 
-:: Check if we already have the pre-built version
-if exist "TWoW-Paladin-Simulator.exe" (
-    echo Pre-built simulator found!
-    goto :launch
+:: Check if we already have the built version
+if exist "build\win-unpacked\TWoW Paladin Simulator.exe" (
+    echo Built simulator found!
+    goto :copy_exe
 )
 
-echo Downloading pre-built simulator...
-echo This downloads the ready-to-run executable.
+:: Check if Node.js is already installed
+where node >nul 2>nul
+if %errorlevel% equ 0 (
+    echo Node.js found! Skipping download...
+    goto :install_deps
+)
+
+echo Node.js not found. Downloading and installing...
 echo.
 
-:: For now, let's use a placeholder - you would replace this with actual download
-echo NOTE: This would download a pre-built executable from a file hosting service
-echo such as GitHub Releases, Google Drive, or similar.
+:: Download Node.js LTS (Windows x64)
+echo Downloading Node.js...
+powershell -Command "& {[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri 'https://nodejs.org/dist/v20.17.0/node-v20.17.0-x64.msi' -OutFile 'temp\node-installer.msi'}"
+
+if not exist "temp\node-installer.msi" (
+    echo ERROR: Failed to download Node.js installer!
+    echo.
+    echo Please check your internet connection and try again.
+    pause
+    exit /b 1
+)
+
 echo.
-echo For demonstration, we'll build it locally this one time...
+echo Installing Node.js...
+echo This may take a few minutes...
+start /wait msiexec /i "temp\node-installer.msi" /quiet /norestart
 
-:: Fallback to portable build if no pre-built version available
-call setup-portable.bat
+:: Refresh PATH environment variable
+set "PATH=%PATH%;C:\Program Files\nodejs"
 
+:install_deps
+echo.
+echo Installing dependencies...
+call npm install
+if %errorlevel% neq 0 (
+    echo.
+    echo ERROR: Failed to install dependencies!
+    pause
+    exit /b 1
+)
+
+echo.
+echo Building simulator...
+call npm run build:win
+if %errorlevel% neq 0 (
+    echo.
+    echo ERROR: Failed to build simulator!
+    pause
+    exit /b 1
+)
+
+:copy_exe
 if exist "build\win-unpacked\TWoW Paladin Simulator.exe" (
     echo.
     echo Copying built executable to main directory for easy access...
     copy "build\win-unpacked\TWoW Paladin Simulator.exe" "TWoW-Paladin-Simulator.exe"
     
-    :: Also copy required DLLs
-    if exist "build\win-unpacked\*.dll" (
-        copy "build\win-unpacked\*.dll" "."
+    :: Also copy required DLLs if needed
+    if exist "build\win-unpacked\ffmpeg.dll" (
+        copy "build\win-unpacked\ffmpeg.dll" "."
+    )
+    if exist "build\win-unpacked\libEGL.dll" (
+        copy "build\win-unpacked\libEGL.dll" "."
+    )
+    if exist "build\win-unpacked\libGLESv2.dll" (
+        copy "build\win-unpacked\libGLESv2.dll" "."
     )
 )
 
-:launch
+:: Clean up temp files
+if exist "temp" rmdir /s /q "temp"
+
 echo.
 echo ===============================================
-echo  Zero Install Setup Complete!
+echo  Setup Complete!
 echo ===============================================
 echo.
-echo The simulator is ready to run!
+echo The TWoW Paladin Simulator has been built successfully!
 echo.
 echo To start: Double-click "TWoW-Paladin-Simulator.exe"
 echo.
