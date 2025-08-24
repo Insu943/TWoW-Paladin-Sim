@@ -41,14 +41,23 @@
           "target": "nsis",
           "arch": ["x64"]
         }
-      ]
+      ],
+      "requestedExecutionLevel": "asInvoker",
+      "signAndEditExecutable": false,
+      "verifyUpdateCodeSignature": false
     },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "TWoW Paladin Simulator"
+      "shortcutName": "TWoW Paladin Simulator",
+      "runAfterFinish": false,
+      "allowElevation": false,
+      "perMachine": false,
+      "installerHeaderIcon": "assets/icons/titleicon.png",
+      "menuCategory": "Games",
+      "include": "installer-script.nsh"
     }
   }
 }

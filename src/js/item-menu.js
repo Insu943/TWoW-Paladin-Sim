@@ -1,5 +1,3 @@
-console.log('[DEBUG] itemmenu.js script loaded');
-
 function showItemMenu(slotElement, slotType, items) {
     showFilterMenu(slotType, slotElement, items);
 }
@@ -7,7 +5,6 @@ function showItemMenu(slotElement, slotType, items) {
 // Wire up gear slot event listeners after DOM is updated
 window.wireGearSlotEvents = function() {
     const gearSlots = document.querySelectorAll('.gear-slot');
-    console.log('[DEBUG] wireGearSlotEvents: Number of gear slots found:', gearSlots.length);
     gearSlots.forEach(slot => {
         slot.addEventListener('click', function(e) {
             e.stopPropagation();
@@ -1761,22 +1758,16 @@ function findItemByName(itemName) {
 
 // Ensure mainhand gear icon opens the item menu
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('[DEBUG] DOMContentLoaded fired in itemmenu.js');
     const gearSlots = document.querySelectorAll('.gear-slot');
-    console.log('[DEBUG] Number of gear slots found:', gearSlots.length, gearSlots);
     gearSlots.forEach(slot => {
         const gearIcon = slot.querySelector('.gear-icon');
         if (gearIcon) {
-            console.log('[DEBUG] Attaching click event to gear icon for slot:', slot.className);
             gearIcon.addEventListener('click', function(e) {
-                console.log('[DEBUG] Gear icon clicked for slot:', slot.className);
                 e.preventDefault();
                 e.stopPropagation();
                 const slotType = slot.dataset.slot;
                 const items = getItemsForSlot(slotType);
-                console.log('[DEBUG] Gear icon clicked:', slotType, slot, gearIcon, 'Event:', e);
                 if (typeof showItemMenu === 'function') {
-                    console.log('[DEBUG] Calling showItemMenu for slot:', slotType);
                     showItemMenu(slot, slotType, items);
                 } else {
                     console.error('[DEBUG] showItemMenu is not defined');

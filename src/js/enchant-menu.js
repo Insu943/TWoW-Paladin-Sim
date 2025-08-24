@@ -4,7 +4,6 @@
 let currentStatFilter = null;
 
 function showEnhancedFilterMenu(slotType, slotElement, items) {
-    console.log('[DEBUG] Enhanced item menu called for slot:', slotType);
     removeItemMenu();
     currentSlot = slotElement;
     
@@ -911,9 +910,7 @@ function calculateWeaponDPS(weapon) {
     
     // Calculate DPS (damage per second)
     const dps = speed > 0 ? avgDamage / speed : 0;
-    
-    console.log('[DEBUG] calculateWeaponDPS for', weapon.name || 'Unknown', '- minDamage:', minDamage, 'maxDamage:', maxDamage, 'speed:', speed, 'DPS:', dps);
-    
+        
     return dps;
 }
 

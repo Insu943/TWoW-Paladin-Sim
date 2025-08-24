@@ -173,12 +173,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (window.showItemMenu && window.getItemsForSlot) {
                     const items = window.getItemsForSlot('race');
                     window.showItemMenu(parentSlot, 'race', items);
-                } else {
-                    console.error('[ERROR] showItemMenu or getItemsForSlot functions not available');
                 }
             };
         } else {
-            console.error('[ERROR] Race slot icon not found in DOM');
         }
     }, 500);
     // Unequip All confirmation
@@ -364,9 +361,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     if (typeof window.savePreset === 'function') {
                         window.savePreset(presetName).then(function() {
                             // Don't reopen modal after saving - just close
-                            console.log('Preset saved successfully');
                         }).catch(function(error) {
-                            console.error('Error saving preset:', error);
                         });
                     }
                 };
@@ -414,7 +409,6 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             const selectedPreset = presetDropdown.value;
             if (!selectedPreset) {
-                console.log('No preset selected to load.');
                 return;
             }
             // Call load preset logic
@@ -640,8 +634,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // DEBUG: DOMContentLoaded fired in main.js
     console.log('[DEBUG] DOMContentLoaded fired in main.js');
-    const gearSlots = document.querySelectorAll('.gear-slot');
-    console.log('[DEBUG] [main.js] Number of gear slots found:', gearSlots.length, gearSlots);
     
     // Initialize enchant displays for all slots
     setTimeout(function() {

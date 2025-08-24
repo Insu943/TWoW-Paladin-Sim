@@ -27,46 +27,20 @@ function getDatabasePath() {
 function ensurePresetsDirectory() {
     const presetsPath = getPresetsPath();
     const parentDir = path.dirname(presetsPath);
-    console.log('DEBUG: userData parent absolute path:', parentDir);
-    console.log('DEBUG: saved_presets absolute path:', presetsPath);
-    if (fs.existsSync(parentDir)) {
-        console.log('DEBUG: userData parent exists. isDirectory:', fs.lstatSync(parentDir).isDirectory());
-    } else {
-        console.log('DEBUG: userData parent does not exist.');
-    }
-    if (fs.existsSync(presetsPath)) {
-        console.log('DEBUG: saved_presets exists. isDirectory:', fs.lstatSync(presetsPath).isDirectory());
-    } else {
-        console.log('DEBUG: saved_presets does not exist.');
-    }
-
+    
     if (fs.existsSync(parentDir) && !fs.lstatSync(parentDir).isDirectory()) {
         fs.unlinkSync(parentDir);
-        console.log('Deleted file at userData parent path, recreating as directory:', parentDir);
     }
     if (!fs.existsSync(parentDir)) {
         fs.mkdirSync(parentDir, { recursive: true });
-        console.log('Created userData parent directory:', parentDir);
     }
     if (fs.existsSync(presetsPath) && !fs.lstatSync(presetsPath).isDirectory()) {
         fs.unlinkSync(presetsPath);
-        console.log('Deleted file at saved_presets path, recreating as directory:', presetsPath);
     }
     if (!fs.existsSync(presetsPath)) {
         fs.mkdirSync(presetsPath, { recursive: true });
-        console.log('Created presets directory:', presetsPath);
     }
 
-    if (fs.existsSync(parentDir)) {
-        console.log('DEBUG AFTER: userData parent exists. isDirectory:', fs.lstatSync(parentDir).isDirectory());
-    } else {
-        console.log('DEBUG AFTER: userData parent does not exist.');
-    }
-    if (fs.existsSync(presetsPath)) {
-        console.log('DEBUG AFTER: saved_presets exists. isDirectory:', fs.lstatSync(presetsPath).isDirectory());
-    } else {
-        console.log('DEBUG AFTER: saved_presets does not exist.');
-    }
     return presetsPath;
 }
 
@@ -132,21 +106,16 @@ function createWindow() {
 ipcMain.handle('load-presets', async () => {
     try {
         const presetsPath = ensurePresetsDirectory();
-        console.log('[PRESET DEBUG] Reading presets from:', presetsPath);
         if (!fs.existsSync(presetsPath)) {
-            console.log('[PRESET DEBUG] Presets directory does not exist:', presetsPath);
             return [];
         }
         const allFiles = fs.readdirSync(presetsPath);
-        console.log('[PRESET DEBUG] Files in directory:', allFiles);
         const files = allFiles.filter(file => file.endsWith('.json') && file !== '.gitkeep');
-        console.log('[PRESET DEBUG] Preset .json files:', files);
         const presetNames = files
             .map(file => path.basename(file, '.json'))
             .filter(name => name && name.trim().length > 0);
         return presetNames;
     } catch (error) {
-        console.error('[PRESET DEBUG] Error loading presets:', error);
         return [];
     }
 });
