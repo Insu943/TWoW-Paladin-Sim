@@ -654,6 +654,57 @@ document.addEventListener('DOMContentLoaded', function() {
 
 console.log('[DEBUG] main.js script loaded');
 
+// Function to show bottom notification popup
+function showNotification(message, duration = 3000) {
+    // Remove any existing notification
+    const existingNotification = document.getElementById('auto-unequip-notification');
+    if (existingNotification) {
+        existingNotification.remove();
+    }
+    
+    // Create notification element
+    const notification = document.createElement('div');
+    notification.id = 'auto-unequip-notification';
+    notification.textContent = message;
+    notification.style.cssText = `
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(34, 34, 34, 0.95);
+        color: #ffd700;
+        padding: 12px 20px;
+        border: 2px solid #ffd700;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: bold;
+        z-index: 10001;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+        max-width: 400px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    `;
+    
+    // Add to document
+    document.body.appendChild(notification);
+    
+    // Fade in
+    setTimeout(() => {
+        notification.style.opacity = '1';
+    }, 10);
+    
+    // Auto remove after duration
+    setTimeout(() => {
+        notification.style.opacity = '0';
+        setTimeout(() => {
+            if (notification.parentNode) {
+                notification.remove();
+            }
+        }, 300);
+    }, duration);
+}
+
 // Delete preset logic
 window.deletePreset = async function() {
     // Get selected preset name from dropdown or UI
@@ -709,6 +760,7 @@ window.savePreset = async function(presetName) {
             console.log('[DEBUG] save-preset result:', result);
             if (result.success) {
                 console.log('Preset saved: ' + presetName);
+                showNotification('Preset saved: ' + presetName);
                 // Optionally refresh preset list here
                 await loadPresetList();
             } else {
@@ -725,7 +777,7 @@ window.savePreset = async function(presetName) {
 // Load a preset and apply it to current gear
 window.loadPreset = async function(presetName) {
     if (!presetName || presetName.trim() === '') {
-        alert('Please select a preset to load.');
+        showNotification('Please select a preset to load.');
         return;
     }
 
@@ -754,7 +806,7 @@ window.loadPreset = async function(presetName) {
                     window.updateAllDropdownStats();
                 }
                 
-                alert('Preset loaded: ' + presetName);
+                showNotification('Preset loaded: ' + presetName);
             } else {
                 alert('Invalid preset data.');
             }
@@ -816,7 +868,7 @@ function updateAllGearSlots() {
 // GLOBAL EQUIP ITEM FUNCTION
 // window.gearData is a global object that stores currently equipped items for each slot.
 // It is initialized at the bottom of this file and updated by equipItem and unequipAllGear.
-window.equipItem = function(slotType, item) {
+window.equipItem = function(slotType, item, skipAutoUnequip = false) {
     const slot = document.querySelector(`.gear-slot[data-slot="${slotType}"]`) || document.querySelector(`.gear-slot.gear-${slotType}`);
     // Remove the item popup menu if present
     if (typeof removeItemMenu === 'function') removeItemMenu();
@@ -1017,20 +1069,76 @@ window.equipItem = function(slotType, item) {
     // window.gearData is initialized globally below
     if (!window.gearData) window.gearData = {};
     
-    // Handle two-handed weapon auto-unequip logic
-    if (item && item.name && item.name !== '' && slotType === 'mainhand') {
+    // Handle unique ring/trinket auto-unequip logic (only if not skipping auto-unequip)
+    if (!skipAutoUnequip && item && item.name && item.name !== '') {
+        // Check for duplicate unique rings
+        if (slotType === 'ring1' || slotType === 'ring2') {
+            const otherRingSlot = slotType === 'ring1' ? 'ring2' : 'ring1';
+            const otherRingData = window.gearData[otherRingSlot];
+            
+            if (otherRingData && otherRingData.name && otherRingData.name === item.name) {
+                console.log(`[DEBUG] Auto-unequipping duplicate ring ${otherRingData.name} from ${otherRingSlot} to equip in ${slotType}`);
+                
+                // Auto-unequip the duplicate ring (skip auto-unequip to prevent recursion)
+                window.equipItem(otherRingSlot, { name: '', equipped: false }, true);
+                
+                // Show notification
+                showNotification("You cannot equip two of the same unique ring");
+            }
+        }
+        
+        // Check for duplicate unique trinkets
+        if (slotType === 'trinket1' || slotType === 'trinket2') {
+            const otherTrinketSlot = slotType === 'trinket1' ? 'trinket2' : 'trinket1';
+            const otherTrinketData = window.gearData[otherTrinketSlot];
+            
+            if (otherTrinketData && otherTrinketData.name && otherTrinketData.name === item.name) {
+                console.log(`[DEBUG] Auto-unequipping duplicate trinket ${otherTrinketData.name} from ${otherTrinketSlot} to equip in ${slotType}`);
+                
+                // Auto-unequip the duplicate trinket (skip auto-unequip to prevent recursion)
+                window.equipItem(otherTrinketSlot, { name: '', equipped: false }, true);
+                
+                // Show notification
+                showNotification("You cannot equip two of the same unique trinket");
+            }
+        }
+    }
+    
+    // Handle two-handed weapon auto-unequip logic (only if not skipping auto-unequip)
+    if (!skipAutoUnequip && item && item.name && item.name !== '' && slotType === 'mainhand') {
         // Check if the item being equipped is a two-handed weapon
-        if (isTwoHandedWeapon(item)) {
+        const isTwoHanded = isTwoHandedWeapon(item) || isTwoHandedByType(item);
+        
+        if (isTwoHanded) {
             // Check if there's an offhand item equipped
             const offhandData = window.gearData.offhand;
             if (offhandData && offhandData.name && offhandData.name !== '') {
                 console.log(`[DEBUG] Auto-unequipping ${offhandData.name} to equip two-handed weapon ${item.name}`);
                 
-                // Auto-unequip the offhand
-                window.equipItem('offhand', { name: '', equipped: false });
+                // Auto-unequip the offhand (skip auto-unequip to prevent recursion)
+                window.equipItem('offhand', { name: '', equipped: false }, true);
                 
                 // Show notification
-                alert(`${offhandData.name} was automatically unequipped to make room for the two-handed weapon ${item.name}.`);
+                showNotification("You cannot have a 2 hander and an off hand equipped at the same time");
+            }
+        }
+    }
+    
+    // Handle off-hand equip with two-handed weapon auto-unequip logic (only if not skipping auto-unequip)
+    if (!skipAutoUnequip && item && item.name && item.name !== '' && slotType === 'offhand') {
+        // Check if there's a two-handed weapon equipped in mainhand
+        const mainhandData = window.gearData.mainhand;
+        if (mainhandData && mainhandData.name && mainhandData.name !== '') {
+            const isTwoHanded = isTwoHandedWeapon(mainhandData) || isTwoHandedByType(mainhandData);
+            
+            if (isTwoHanded) {
+                console.log(`[DEBUG] Auto-unequipping two-handed weapon ${mainhandData.name} to equip off-hand ${item.name}`);
+                
+                // Auto-unequip the mainhand (skip auto-unequip to prevent recursion)
+                window.equipItem('mainhand', { name: '', equipped: false }, true);
+                
+                // Show notification
+                showNotification("You cannot have a 2 hander and an off hand equipped at the same time");
             }
         }
     }
@@ -1198,10 +1306,13 @@ function getEnchantStatsText(enchant) {
 function isTwoHandedWeapon(item) {
     if (!item) return false;
     
+    console.log('[DEBUG] isTwoHandedWeapon checking item:', item.name, 'slot:', item.slot, 'type:', item.type);
+    
     // Check slot property first (most reliable)
     if (item.slot && typeof item.slot === 'string') {
         const slot = item.slot.toLowerCase();
         if (slot === 'two-hand' || slot.includes('two-hand')) {
+            console.log('[DEBUG] Item is two-handed by slot property');
             return true;
         }
     }
@@ -1213,7 +1324,44 @@ function isTwoHandedWeapon(item) {
             'Two-Handed Mace',
             'Polearm'
         ];
-        return twoHandedTypes.includes(item.type);
+        const isTwoHanded = twoHandedTypes.includes(item.type);
+        if (isTwoHanded) {
+            console.log('[DEBUG] Item is two-handed by type property');
+        }
+        return isTwoHanded;
+    }
+    
+    return false;
+}
+
+// Helper function to check if an item is two-handed based on Type filter categories
+function isTwoHandedByType(item) {
+    if (!item) return false;
+    
+    console.log('[DEBUG] isTwoHandedByType checking item:', item.name);
+    
+    // Use the same getItemType function from enchant-menu.js
+    if (typeof window.getItemType === 'function') {
+        const itemType = window.getItemType(item);
+        const twoHandedTypes = ['2H Sword', '2H Mace', '2H Polearm'];
+        const isTwoHanded = twoHandedTypes.includes(itemType);
+        console.log('[DEBUG] Item type:', itemType, 'is two-handed:', isTwoHanded);
+        return isTwoHanded;
+    }
+    
+    // Fallback: check item properties directly
+    if (item.weaponType) {
+        const weaponType = item.weaponType.toLowerCase();
+        const isTwoHanded = (weaponType === 'sword' || weaponType === 'mace' || weaponType === 'polearm') && item.twoHanded;
+        console.log('[DEBUG] Fallback weaponType check:', weaponType, 'twoHanded:', item.twoHanded, 'result:', isTwoHanded);
+        return isTwoHanded;
+    }
+    
+    if (item.type) {
+        const type = item.type.toLowerCase();
+        const isTwoHanded = type.includes('2h') || type.includes('two-hand') || type.includes('polearm');
+        console.log('[DEBUG] Fallback type check:', type, 'result:', isTwoHanded);
+        return isTwoHanded;
     }
     
     return false;

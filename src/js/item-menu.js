@@ -720,6 +720,7 @@ function showFilterMenu(slotType, slotElement, items) {
         itemList.style.flex = '1';
         itemList.style.overflowY = 'auto';
         itemList.style.overflowX = 'hidden';
+        itemList.style.paddingBottom = '50px'; // Add margin at bottom to prevent cut-off
 
         // Add the header row to the container (not the scrollable list)
         itemContainer.appendChild(headerRow);
@@ -1028,7 +1029,8 @@ function showFilterMenu(slotType, slotElement, items) {
     itemList.style.overflowX = 'hidden';
     itemList.style.height = '100%';
     itemList.style.minHeight = '300px';
-    itemList.style.maxHeight = 'calc(100vh - 250px)';
+    itemList.style.maxHeight = '500px'; // Fixed height that fits within 750px popup
+    itemList.style.paddingBottom = '50px'; // Add margin at bottom to prevent cut-off
     
     // Add the header row to the container (not the scrollable list)
     itemContainer.appendChild(headerRow);

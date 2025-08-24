@@ -91,7 +91,7 @@
                 "intellect": 15,
                 "spirit": 9,
                 "spellcrit": 1,
-                "healing": 33,
+                "healingpower": 33,
                 "quality": 3
             },
             {
@@ -132,7 +132,7 @@
                 "intellect": 13,
                 "spirit": 12,
                 "spellpower": 23,
-                "healing": 23,
+                "healingpower": 23,
                 "quality": 3
             },
             {
@@ -177,7 +177,7 @@
                 "armor": 137,
                 "stamina": 12,
                 "intellect": 15,
-                "healing": 33,
+                "healingpower": 33,
                 "quality": 3
             },
             {
@@ -197,7 +197,7 @@
                 "stamina": 20,
                 "intellect": 12,
                 "spellpower": 11,
-                "healing": 11,
+                "healingpower": 11,
                 "defense": 5,
                 "quality": 3
             },
@@ -227,7 +227,7 @@
                 "stamina": 19,
                 "intellect": 14,
                 "quality": 4,
-                "healing": 29
+                "healingpower": 29
             },
             {
                 "name": "Gurubashi Helm",
@@ -257,7 +257,7 @@
                 "intellect": 28,
                 "spirit": 10,
                 "quality": 3,
-                "healing": 22
+                "healingpower": 22
             },
             {
                 "name": "Helm of Domination",
@@ -293,7 +293,7 @@
                 "intellect": 30,
                 "spirit": 14,
                 "quality": 4,
-                "healing": 48
+                "healingpower": 48
             },
             {
                 "name": "Crown of Destruction",
@@ -367,7 +367,7 @@
                 "stamina": 26,
                 "intellect": 23,
                 "spirit": 17,
-                "healing": 59,
+                "healingpower": 59,
                 "quality": 4
             },
             {
@@ -440,7 +440,7 @@
                 "armor": 85,
                 "intellect": 14,
                 "spirit": 13,
-                "healing": 92,
+                "healingpower": 92,
                 "quality": 4
             },
             {
@@ -449,7 +449,7 @@
                 "armor": 332,
                 "stamina": 19,
                 "intellect": 1,
-                "healing": 64,
+                "healingpower": 64,
                 "mp5": 8,
                 "spellcrit": 1,
                 "quality": 4
@@ -464,7 +464,7 @@
                 "fireresistance": 10,
                 "shadowresistance": 10,
                 "spellpower": 16,
-                "healing": 16,
+                "healingpower": 16,
                 "quality": 4
             },
             {
@@ -490,7 +490,7 @@
                 "meleecrit": 1,
                 "spellhit": 1,
                 "spellpower": 29,
-                "healing": 29,
+                "healingpower": 29,
                 "quality": 4
             },
             {
@@ -570,7 +570,7 @@
                 "stamina": 9,
                 "intellect": 9,
                 "spirit": 8,
-                "healing": 15,
+                "healingpower": 15,
                 "quality": 3
             },
             {
@@ -578,7 +578,7 @@
                 "type": "Neck",
                 "stamina": 7,
                 "spirit": 6,
-                "healing": 33,
+                "healingpower": 33,
                 "quality": 3
             },
             {
@@ -593,7 +593,7 @@
                 "type": "Neck",
                 "intellect": 10,
                 "spirit": 9,
-                "healing": 26,
+                "healingpower": 26,
                 "mp5": 3,
                 "quality": 3
             },
@@ -612,7 +612,7 @@
                 "intellect": 11,
                 "spirit": 6,
                 "quality": 4,
-                "healing": 44
+                "healingpower": 44
             },
             {
                 "name": "Jeklik's Opaline Talisman",
@@ -656,7 +656,7 @@
                 "name": "Amulet of the Shifting Sands",
                 "type": "Neck",
                 "quality": 4,
-                "healing": 46,
+                "healingpower": 46,
                 "mp5": 6
             },
             {
@@ -751,7 +751,7 @@
                 "type": "Neck",
                 "quality": 4,
                 "spellpower": 32,
-                "healing": 32,
+                "healingpower": 32,
                 "mp5": 5
             },
             {
@@ -763,7 +763,7 @@
                 "hit": 1,
                 "spellhit": 1,
                 "spellpower": 28,
-                "healing": 28
+                "healingpower": 28
             },
             {
                 "name": "Amulet of Foul Warding",
@@ -788,7 +788,7 @@
                 "stamina": 13,
                 "intellect": 14,
                 "quality": 4,
-                "healing": 31,
+                "healingpower": 31,
                 "mp5": 6
             },
             {
@@ -798,7 +798,7 @@
                 "intellect": 13,
                 "natureresistance": 20,
                 "spellpower": 8,
-                "healing": 8,
+                "healingpower": 8,
                 "quality": 4
             },
             {
@@ -815,7 +815,7 @@
                 "stamina": 9,
                 "intellect": 5,
                 "spellpower": 27,
-                "healing": 27,
+                "healingpower": 27,
                 "spellcrit": 1,
                 "quality": 4
             },
@@ -832,7 +832,7 @@
                 "name": "Amulet of the Fallen God",
                 "type": "Neck",
                 "stamina": 11,
-                "healing": 57,
+                "healingpower": 57,
                 "mp5": 6,
                 "quality": 4
             },
@@ -842,7 +842,7 @@
                 "stamina": 7,
                 "intellect": 12,
                 "natureResistance": 20,
-                "healing": 26,
+                "healingpower": 26,
                 "quality": 4
             },
             {
@@ -886,14 +886,14 @@
                 "frostResistance": 13,
                 "shadowResistance": 13,
                 "spellpower": 13,
-                "healing": 13,
+                "healingpower": 13,
                 "quality": 4
             },
             {
                 "name": "Pendant of Forgiven Mistakes",
                 "type": "Neck",
                 "intellect": 21,
-                "healing": 44,
+                "healingpower": 44,
                 "mp5": 8,
                 "unique": true,
                 "quality": 4
@@ -911,7 +911,7 @@
                 "name": "Gluth's Missing Collar",
                 "type": "Neck",
                 "stamina": 24,
-                "blockchance": 42,
+                "block": 42,
                 "blockvalue": 15,
                 "unique": true,
                 "quality": 4
@@ -930,7 +930,7 @@
                 "stamina": 9,
                 "intellect": 8,
                 "spellpower": 28,
-                "healing": 28,
+                "healingpower": 28,
                 "spellresistancereduction": 13,
                 "quality": 4
             },
@@ -940,7 +940,7 @@
                 "stamina": 10,
                 "intellect": 11,
                 "spirit": 10,
-                "healing": 53,
+                "healingpower": 53,
                 "quality": 4
             },
             {
@@ -957,7 +957,7 @@
                 "stamina": 9,
                 "intellect": 7,
                 "spellpower": 15,
-                "healing": 15,
+                "healingpower": 15,
                 "spellcrit": 2,
                 "quality": 4
             },
@@ -994,7 +994,7 @@
                 "intellect": 10,
                 "mp5": 2,
                 "spellpower": 20,
-                "healing": 20,
+                "healingpower": 20,
                 "quality": 4,
                 "unique": true
             }
@@ -1069,7 +1069,7 @@
                 "intellect": 10,
                 "spirit": 10,
                 "spellpower": 18,
-                "healing": 18,
+                "healingpower": 18,
                 "quality": 3
             },
             {
@@ -1080,7 +1080,7 @@
                 "intellect": 11,
                 "spirit": 9,
                 "spellpower": 14,
-                "healing": 14,
+                "healingpower": 14,
                 "quality": 3
             },
             {
@@ -1099,7 +1099,7 @@
                 "stamina": 8,
                 "intellect": 9,
                 "spirit": 13,
-                "healing": 26,
+                "healingpower": 26,
                 "quality": 3
             },
             {
@@ -1172,7 +1172,7 @@
                 "stamina": 14,
                 "intellect": 8,
                 "spellpower": 12,
-                "healing": 12,
+                "healingpower": 12,
                 "quality": 3
             },
             {
@@ -1193,7 +1193,7 @@
                 "intellect": 18,
                 "spirit": 12,
                 "quality": 4,
-                "healing": 37
+                "healingpower": 37
             },
             {
                 "name": "Chitinous Shoulderguards",
@@ -1240,7 +1240,7 @@
                 "intellect": 12,
                 "spirit": 10,
                 "quality": 4,
-                "healing": 62
+                "healingpower": 62
             },
             {
                 "name": "Shoulderpads of True Flight",
@@ -1292,7 +1292,7 @@
                 "spirit": 14,
                 "quality": 4,
                 "spellpower": 28,
-                "healing": 28,
+                "healingpower": 28,
                 "spellhit": 1
             },
             {
@@ -1312,7 +1312,7 @@
                 "intellect": 15,
                 "spirit": 9,
                 "spellpower": 28,
-                "healing": 28,
+                "healingpower": 28,
                 "quality": 4
             },
             {
@@ -1324,7 +1324,7 @@
                 "stamina": 20,
                 "intellect": 17,
                 "spellpower": 23,
-                "healing": 45,
+                "healingpower": 45,
                 "quality": 4
             },
             {
@@ -1364,7 +1364,7 @@
                 "stamina": 19,
                 "intellect": 18,
                 "spellpower": 35,
-                "healing": 35,
+                "healingpower": 35,
                 "spellcrit": 1,
                 "spellhit": 1,
                 "unique": true,
@@ -1377,7 +1377,7 @@
                 "stamina": 15,
                 "intellect": 19,
                 "spirit": 22,
-                "healing": 73,
+                "healingpower": 73,
                 "unique": true,
                 "quality": 4
             },
@@ -1417,7 +1417,7 @@
                 "mp5": 4,
                 "meleecrit": 1,
                 "spellpower": 18,
-                "healing": 18,
+                "healingpower": 18,
                 "classRestriction": ["Paladin"],
                 "quality": 4
             },
@@ -1458,7 +1458,7 @@
                 "stamina": 13,
                 "hit": 2,
                 "spellpower": 11,
-                "healing": 11,
+                "healingpower": 11,
                 "quality": 4,
                 "unique": true
             },
@@ -1470,7 +1470,7 @@
                 "fireResistance": 20,
                 "spellcrit": 1,
                 "spellpower": 20,
-                "healing": 20,
+                "healingpower": 20,
                 "quality": 4
             },
             {
@@ -1520,7 +1520,7 @@
                 "armor": 44,
                 "stamina": 7,
                 "intellect": 11,
-                "healing": 26,
+                "healingpower": 26,
                 "quality": 3
             },
             {
@@ -1560,7 +1560,7 @@
                 "type": "Back",
                 "armor": 46,
                 "spellpower": 16,
-                "healing": 16,
+                "healingpower": 16,
                 "quality": 3
             },
             {
@@ -1570,7 +1570,7 @@
                 "intellect": 10,
                 "spirit": 7,
                 "spellpower": 16,
-                "healing": 16,
+                "healingpower": 16,
                 "quality": 3
             },
             {
@@ -1590,7 +1590,7 @@
                 "intellect": 6,
                 "spirit": 8,
                 "quality": 3,
-                "healing": 33
+                "healingpower": 33
             },
             {
                 "name": "Zulian Tigerhide Cloak",
@@ -1647,7 +1647,7 @@
                 "quality": 4,
                 "haste": 1,
                 "spellpower": 14,
-                "healing": 14,
+                "healingpower": 14,
                 "classRestriction": [
                     "Paladin"
                 ]
@@ -1660,7 +1660,7 @@
                 "intellect": 11,
                 "spirit": 10,
                 "quality": 3,
-                "healing": 22
+                "healingpower": 22
             },
             {
                 "name": "Sandstorm Cloak",
@@ -1732,7 +1732,7 @@
                 "stamina": 10,
                 "intellect": 11,
                 "quality": 4,
-                "healing": 33,
+                "healingpower": 33,
                 "mp5": 6
             },
             {
@@ -1789,7 +1789,7 @@
                 "intellect": 12,
                 "quality": 4,
                 "spellpower": 21,
-                "healing": 21
+                "healingpower": 21
             },
             {
                 "name": "Cloak of the Golden Hive",
@@ -1808,7 +1808,7 @@
                 "stamina": 6,
                 "intellect": 12,
                 "spirit": 7,
-                "healing": 40,
+                "healingpower": 40,
                 "mp5": 8,
                 "quality": 4
             },
@@ -1819,7 +1819,7 @@
                 "stamina": 11,
                 "intellect": 10,
                 "spellpower": 30,
-                "healing": 30,
+                "healingpower": 30,
                 "spellhit": 1,
                 "quality": 4
             },
@@ -1840,7 +1840,7 @@
                 "spirit": 14,
                 "haste": 1,
                 "spellpower": 24,
-                "healing": 24,
+                "healingpower": 24,
                 "unique": true,
                 "quality": 4
             },
@@ -1853,7 +1853,7 @@
                 "dodge": 1,
                 "hit": 1,
                 "spellpower": 18,
-                "healing": 18,
+                "healingpower": 18,
                 "unique": true,
                 "quality": 4
             },
@@ -1864,7 +1864,7 @@
                 "stamina": 10,
                 "intellect": 12,
                 "spellpower": 30,
-                "healing": 30,
+                "healingpower": 30,
                 "spellhit": 1,
                 "haste": 1,
                 "unique": true,
@@ -1876,7 +1876,7 @@
                 "armor": 74,
                 "stamina": 9,
                 "intellect": 14,
-                "healing": 53,
+                "healingpower": 53,
                 "mp5": 6,
                 "unique": true,
                 "quality": 4
@@ -1897,7 +1897,7 @@
                 "armor": 63,
                 "intellect": 12,
                 "spirit": 12,
-                "healing": 48,
+                "healingpower": 48,
                 "mp5": 5,
                 "quality": 4
             },
@@ -1927,7 +1927,7 @@
                 "stamina": 10,
                 "intellect": 10,
                 "spellpower": 28,
-                "healing": 28,
+                "healingpower": 28,
                 "spellresistance": -10,
                 "quality": 4
             },
@@ -1938,7 +1938,7 @@
                 "stamina": 12,
                 "intellect": 11,
                 "spellpower": 26,
-                "healing": 26,
+                "healingpower": 26,
                 "spellcrit": 1,
                 "spellhit": 1,
                 "quality": 4
@@ -1959,7 +1959,7 @@
                 "stamina": 11,
                 "intellect": 13,
                 "spirit": 8,
-                "healing": 31,
+                "healingpower": 31,
                 "unique": true,
                 "quality": 4
             },
@@ -2077,7 +2077,7 @@
                 "intellect": 20,
                 "spirit": 6,
                 "spellpower": 23,
-                "healing": 23,
+                "healingpower": 23,
                 "quality": 3
             },
             {
@@ -2137,7 +2137,7 @@
                 "stamina": 15,
                 "intellect": 15,
                 "spellpower": 18,
-                "healing": 18,
+                "healingpower": 18,
                 "quality": 3
             },
             {
@@ -2332,7 +2332,7 @@
                 "stamina": 8,
                 "intellect": 8,
                 "spellpower": 60,
-                "healing": 60,
+                "healingpower": 60,
                 "spellcrit": 1,
                 "quality": 4
             },
@@ -2384,7 +2384,7 @@
                 "fireResistance": 25,
                 "spellcrit": 1,
                 "spellpower": 29,
-                "healing": 29,
+                "healingpower": 29,
                 "quality": 4
             },
             {
@@ -2468,7 +2468,7 @@
                 "stamina": 8,
                 "intellect": 10,
                 "spirit": 5,
-                "healing": 22,
+                "healingpower": 22,
                 "quality": 3
             },
             {
@@ -2518,7 +2518,7 @@
                 "intellect": 10,
                 "quality": 4,
                 "spellpower": 6,
-                "healing": 7
+                "healingpower": 7
             },
             {
                 "name": "Scaled Bracers of the Gorger",
@@ -2669,8 +2669,8 @@
                 "armor": 328,
                 "strength": 12,
                 "stamina": 14,
-                "melee_haste": 1,
-                "spell_haste": 1,
+                "meleehaste": 1,
+                "spellhaste": 1,
                 "quality": 4,
                 "unique": true
             },
@@ -2725,7 +2725,7 @@
                 "intellect": 10,
                 "spirit": 8,
                 "quality": 3,
-                "healing": 22
+                "healingpower": 22
             },
             {
                 "name": "Fists of Phalanx",
@@ -2742,7 +2742,7 @@
                 "stamina": 10,
                 "intellect": 9,
                 "quality": 3,
-                "healing": 37
+                "healingpower": 37
             },
             {
                 "name": "Force Imbued Gauntlets",
@@ -2759,7 +2759,7 @@
                 "stamina": 8,
                 "intellect": 8,
                 "spirit": 8,
-                "healing": 42,
+                "healingpower": 42,
                 "quality": 3
             },
             {
@@ -2798,7 +2798,7 @@
                 "intellect": 11,
                 "spirit": 9,
                 "spellpower": 16,
-                "healing": 16,
+                "healingpower": 16,
                 "quality": 3
             },
             {
@@ -2844,7 +2844,7 @@
                 "stamina": 11,
                 "intellect": 10,
                 "shadowResistance": 10,
-                "healing": 33,
+                "healingpower": 33,
                 "quality": 3
             },
             {
@@ -2854,7 +2854,7 @@
                 "stamina": 12,
                 "intellect": 12,
                 "spellpower": 21,
-                "healing": 21,
+                "healingpower": 21,
                 "quality": 3
             },
             {
@@ -2886,7 +2886,7 @@
                 "stamina": 8,
                 "intellect": 12,
                 "quality": 4,
-                "healing": 51,
+                "healingpower": 51,
                 "mp5": 6
             },
             {
@@ -2896,7 +2896,7 @@
                 "stamina": 16,
                 "intellect": 14,
                 "quality": 4,
-                "healing": 26
+                "healingpower": 26
             },
             {
                 "name": "Sacrificial Gauntlets",
@@ -2936,7 +2936,7 @@
                 "intellect": 13,
                 "quality": 3,
                 "spellpower": 25,
-                "healing": 25
+                "healingpower": 25
             },
             {
                 "name": "Slimy Scaled Gauntlets",
@@ -2947,7 +2947,7 @@
                 "intellect": 18,
                 "quality": 3,
                 "spellpower": 12,
-                "healing": 12,
+                "healingpower": 12,
                 "spellcrit": 1
             },
             {
@@ -2960,7 +2960,7 @@
                 "intellect": 18,
                 "quality": 3,
                 "spellpower": 12,
-                "healing": 12
+                "healingpower": 12
             },
             {
                 "name": "Scaled Silithid Gauntlets",
@@ -2980,7 +2980,7 @@
                 "stamina": 19,
                 "intellect": 20,
                 "quality": 4,
-                "healing": 26,
+                "healingpower": 26,
                 "mp5": 4
             },
             {
@@ -3022,7 +3022,7 @@
                 "intellect": 15,
                 "quality": 4,
                 "spellpower": 27,
-                "healing": 27,
+                "healingpower": 27,
                 "spellcrit": 1
             },
             {
@@ -3063,7 +3063,7 @@
                 "stamina": 15,
                 "intellect": 13,
                 "spellpower": 20,
-                "healing": 20,
+                "healingpower": 20,
                 "spellcrit": 1,
                 "quality": 4
             },
@@ -3076,7 +3076,7 @@
                 "stamina": 17,
                 "intellect": 13,
                 "spellpower": 16,
-                "healing": 16,
+                "healingpower": 16,
                 "meleecrit": 1,
                 "quality": 4
             },
@@ -3087,7 +3087,7 @@
                 "stamina": 14,
                 "intellect": 15,
                 "spirit": 16,
-                "healing": 53,
+                "healingpower": 53,
                 "quality": 4
             },
             {
@@ -3157,7 +3157,7 @@
                 "stamina": 16,
                 "intellect": 10,
                 "spellpower": 20,
-                "healing": 20,
+                "healingpower": 20,
                 "classRestriction": ["Paladin"],
                 "quality": 4
             },
@@ -3167,7 +3167,7 @@
                 "armor": 154,
                 "stamina": 18,
                 "intellect": 19,
-                "healing": 39,
+                "healingpower": 39,
                 "mp5": 6,
                 "unique": true,
                 "quality": 4
@@ -3213,7 +3213,7 @@
                 "stamina": 15,
                 "intellect": 15,
                 "spellpower": 14,
-                "healing": 14,
+                "healingpower": 14,
                 "spellcrit": 28,
                 "classRestriction": ["Paladin"],
                 "unique": true,
@@ -3228,7 +3228,7 @@
                 "stamina": 15,
                 "intellect": 16,
                 "spellpower": 16,
-                "healing": 16,
+                "healingpower": 16,
                 "spellcrit": 1,
                 "quality": 4
             },
@@ -3322,7 +3322,7 @@
                 "armor": 98,
                 "stamina": 9,
                 "intellect": 15,
-                "healing": 35,
+                "healingpower": 35,
                 "quality": 3
             },
             {
@@ -3368,7 +3368,7 @@
                 "armor": 353,
                 "stamina": 9,
                 "intellect": 8,
-                "healing": 42,
+                "healingpower": 42,
                 "quality": 3
             },
             {
@@ -3379,7 +3379,7 @@
                 "intellect": 6,
                 "spirit": 6,
                 "spellpower": 23,
-                "healing": 23,
+                "healingpower": 23,
                 "quality": 3
             },
             {
@@ -3448,7 +3448,7 @@
                 "intellect": 12,
                 "quality": 4,
                 "spellpower": 12,
-                "healing": 15
+                "healingpower": 15
             },
             {
                 "name": "Belt of the Sand Reaver",
@@ -3467,7 +3467,7 @@
                 "intellect": 13,
                 "quality": 3,
                 "spellpower": 16,
-                "healing": 16,
+                "healingpower": 16,
                 "spellcrit": 1
             },
             {
@@ -3521,9 +3521,9 @@
                 "intellect": 16,
                 "quality": 4,
                 "spellpower": 20,
-                "healing": 20,
-                "melee_haste": 1,
-                "spell_haste": 1
+                "healingpower": 20,
+                "meleehaste": 1,
+                "spellhaste": 1
             },
             {
                 "name": "Girdle of the Fallen Crusader",
@@ -3534,8 +3534,8 @@
                 "stamina": 17,
                 "intellect": 17,
                 "quality": 4,
-                "melee_haste": 1,
-                "spell_haste": 1
+                "meleehaste": 1,
+                "spellhaste": 1
             },
             {
                 "name": "Therazane's Link",
@@ -3546,8 +3546,8 @@
                 "quality": 4,
                 "attackpower": 44,
                 "meleecrit": 1,
-                "melee_haste": 1,
-                "spell_haste": 1
+                "meleehaste": 1,
+                "spellhaste": 1
             },
             {
                 "name": "Triad Girdle",
@@ -3590,7 +3590,7 @@
                 "stamina": 22,
                 "hit": 1,
                 "spellpower": 28,
-                "healing": 28,
+                "healingpower": 28,
                 "unique": true,
                 "quality": 4
             },
@@ -3602,7 +3602,7 @@
                 "intellect": 13,
                 "spellhit": 1,
                 "spellpower": 40,
-                "healing": 40,
+                "healingpower": 40,
                 "unique": true,
                 "quality": 4
             },
@@ -3634,7 +3634,7 @@
                 "stamina": 16,
                 "intellect": 18,
                 "spirit": 13,
-                "healing": 55,
+                "healingpower": 55,
                 "quality": 4
             },
             {
@@ -3646,7 +3646,7 @@
                 "stamina": 17,
                 "intellect": 17,
                 "spellpower": 19,
-                "healing": 19,
+                "healingpower": 19,
                 "mp5": 5,
                 "quality": 4
             },
@@ -3658,7 +3658,7 @@
                 "agility": 13,
                 "stamina": 17,
                 "intellect": 18,
-                "healing": 35,
+                "healingpower": 35,
                 "quality": 4
             },
             {
@@ -3701,7 +3701,7 @@
                 "stamina": 17,
                 "intellect": 17,
                 "spellpower": 18,
-                "healing": 18,
+                "healingpower": 18,
                 "mp5": 7,
                 "classRestriction": ["Paladin"],
                 "quality": 4
@@ -3745,7 +3745,7 @@
                 "stamina": 14,
                 "intellect": 20,
                 "spirit": 10,
-                "healing": 55,
+                "healingpower": 55,
                 "quality": 4
             },
             {
@@ -3767,7 +3767,7 @@
                 "fireResistance": 20,
                 "spellcrit": 1,
                 "spellpower": 18,
-                "healing": 18,
+                "healingpower": 18,
                 "quality": 4
             },
             {
@@ -3847,7 +3847,7 @@
                 "intellect": 16,
                 "spirit": 10,
                 "spellpower": 18,
-                "healing": 18,
+                "healingpower": 18,
                 "quality": 3
             },
             {
@@ -3867,7 +3867,7 @@
                 "stamina": 20,
                 "intellect": 20,
                 "spirit": 10,
-                "healing": 13,
+                "healingpower": 13,
                 "quality": 3
             },
             {
@@ -3885,7 +3885,7 @@
                 "stamina": 20,
                 "shadowResistance": 10,
                 "spellpower": 14,
-                "healing": 14,
+                "healingpower": 14,
                 "defense": 5,
                 "unique": true,
                 "quality": 3
@@ -3963,7 +3963,7 @@
                 "intellect": 15,
                 "quality": 3,
                 "spellpower": 16,
-                "healing": 16,
+                "healingpower": 16,
                 "mp5": 6
             },
             {
@@ -3973,7 +3973,7 @@
                 "stamina": 14,
                 "intellect": 18,
                 "quality": 3,
-                "healing": 37,
+                "healingpower": 37,
                 "mp5": 7
             },
             {
@@ -3984,7 +3984,7 @@
                 "intellect": 18,
                 "spirit": 18,
                 "quality": 3,
-                "healing": 35
+                "healingpower": 35
             },
             {
                 "name": "Peacekeeper Leggings",
@@ -3993,7 +3993,7 @@
                 "stamina": 14,
                 "intellect": 18,
                 "quality": 4,
-                "healing": 37,
+                "healingpower": 37,
                 "mp5": 7
             },
             {
@@ -4033,7 +4033,7 @@
                 "intellect": 18,
                 "quality": 3,
                 "spellpower": 19,
-                "healing": 19
+                "healingpower": 19
             },
             {
                 "name": "Legplates of the Destroyer",
@@ -4045,7 +4045,7 @@
                 "intellect": 18,
                 "quality": 3,
                 "spellpower": 12,
-                "healing": 12
+                "healingpower": 12
             },
             {
                 "name": "Salamander Scale Pants",
@@ -4055,7 +4055,7 @@
                 "intellect": 16,
                 "quality": 4,
                 "fireResistance": 10,
-                "healing": 51,
+                "healingpower": 51,
                 "mp5": 9
             },
             {
@@ -4110,7 +4110,7 @@
                 "intellect": 23,
                 "quality": 4,
                 "spellpower": 14,
-                "healing": 14,
+                "healingpower": 14,
                 "spellcrit": 2,
                 "spellhit": 1
             },
@@ -4146,7 +4146,7 @@
                 "twohandedmaces": 8,
                 "meleecrit": 1,
                 "spellpower": 15,
-                "healing": 15
+                "healingpower": 15
             },
             {
                 "name": "Leggings of Immersion",
@@ -4157,7 +4157,7 @@
                 "quality": 4,
                 "spellhit": 1,
                 "spellpower": 40,
-                "healing": 40
+                "healingpower": 40
             },
             {
                 "name": "Scaled Leggings of Qiraji Fury",
@@ -4166,7 +4166,7 @@
                 "stamina": 20,
                 "intellect": 23,
                 "spellpower": 39,
-                "healing": 39,
+                "healingpower": 39,
                 "spellcrit": 1,
                 "quality": 4
             },
@@ -4187,7 +4187,7 @@
                 "strength": 9,
                 "stamina": 17,
                 "intellect": 23,
-                "healing": 68,
+                "healingpower": 68,
                 "spellcrit": 1,
                 "quality": 4
             },
@@ -4249,7 +4249,7 @@
                 "stamina": 20,
                 "intellect": 21,
                 "spellpower": 23,
-                "healing": 23,
+                "healingpower": 23,
                 "meleecrit": 2,
                 "classRestriction": ["Paladin"],
                 "quality": 4
@@ -4280,7 +4280,7 @@
                 "stamina": 26,
                 "intellect": 26,
                 "spirit": 20,
-                "healing": 48,
+                "healingpower": 48,
                 "quality": 4
             },
             {
@@ -4391,7 +4391,7 @@
                 "stamina": 8,
                 "intellect": 18,
                 "quality": 3,
-                "healing": 20
+                "healingpower": 20
             },
             {
                 "name": "Merciful Greaves",
@@ -4400,7 +4400,7 @@
                 "stamina": 14,
                 "intellect": 14,
                 "quality": 3,
-                "healing": 20
+                "healingpower": 20
             },
             {
                 "name": "Boots of Ferocity",
@@ -4419,7 +4419,7 @@
                 "spirit": 6,
                 "quality": 3,
                 "spellpower": 25,
-                "healing": 25
+                "healingpower": 25
             },
             {
                 "name": "Grimy Metal Boots",
@@ -4464,7 +4464,7 @@
                 "spirit": 10,
                 "shadowResistance": 10,
                 "spellpower": 12,
-                "healing": 12,
+                "healingpower": 12,
                 "quality": 3
             },
             {
@@ -4479,7 +4479,7 @@
                 "name": "Verdant Footpads",
                 "type": "Leather",
                 "armor": 118,
-                "healing": 37,
+                "healingpower": 37,
                 "natureSpellpower": 24,
                 "quality": 3
             },
@@ -4522,7 +4522,7 @@
                 "intellect": 12,
                 "quality": 4,
                 "mp5": 6,
-                "healing": 22
+                "healingpower": 22
             },
             {
                 "name": "Blooddrenched Footpads",
@@ -4550,7 +4550,7 @@
                 "intellect": 14,
                 "spirit": 14,
                 "quality": 4,
-                "healing": 29
+                "healingpower": 29
             },
             {
                 "name": "Boots of the Vanguard",
@@ -4589,7 +4589,7 @@
                 "quality": 3,
                 "mp5": 4,
                 "spellpower": 12,
-                "healing": 12
+                "healingpower": 12
             },
             {
                 "name": "Boots of the Desert Protector",
@@ -4599,7 +4599,7 @@
                 "intellect": 14,
                 "quality": 3,
                 "blockvalue": 14,
-                "blockchance": 1
+                "block": 1
             },
             {
                 "name": "Sabatons of the Flamewalker",
@@ -4620,7 +4620,7 @@
                 "intellect": 18,
                 "quality": 4,
                 "fireResistance": 8,
-                "healing": 26
+                "healingpower": 26
             },
             {
                 "name": "Core Forged Greaves",
@@ -4682,7 +4682,7 @@
                 "quality": 4,
                 "spellhit": 1,
                 "spellpower": 28,
-                "healing": 28
+                "healingpower": 28
             },
             {
                 "name": "Boots of the Fallen Prophet",
@@ -4694,7 +4694,7 @@
                 "intellect": 15,
                 "quality": 4,
                 "spellpower": 20,
-                "healing": 20
+                "healingpower": 20
             },
             {
                 "name": "Boots of the Unwavering Will",
@@ -4716,7 +4716,7 @@
                 "intellect": 16,
                 "quality": 4,
                 "spellpower": 18,
-                "healing": 18
+                "healingpower": 18
             },
             {
                 "name": "Boots of the Fallen Hero",
@@ -4746,7 +4746,7 @@
                 "intellect": 12,
                 "hit": 1,
                 "spellpower": 15,
-                "healing": 15,
+                "healingpower": 15,
                 "quality": 4
             },
             {
@@ -4798,7 +4798,7 @@
                 "stamina": 16,
                 "intellect": 17,
                 "spellpower": 24,
-                "healing": 24,
+                "healingpower": 24,
                 "hit": 14,
                 "classRestriction": ["Paladin"],
                 "unique": true,
@@ -4822,7 +4822,7 @@
                 "natureresistance": 25,
                 "mp5": 3,
                 "spellpower": 18,
-                "healing": 18,
+                "healingpower": 18,
                 "quality": 4
             },
             {
@@ -4854,7 +4854,7 @@
                 "intellect": 12,
                 "spirit": 11,
                 "spellpower": 36,
-                "healing": 36,
+                "healingpower": 36,
                 "quality": 4
             },
             {
@@ -4887,7 +4887,7 @@
                 "armor": 507,
                 "agility": 8,
                 "stamina": 23,
-                "blockchance": 2,
+                "block": 2,
                 "blockvalue": 21,
                 "quality": 4,
                 "unique": true
@@ -4921,23 +4921,6 @@
                 "quality": 3
             },
             {
-                "name": "Band of Calamity",
-                "type": "Ring",
-                "unique": true,
-                "ignoreArmor": 50,
-                "quality": 3
-            },
-            {
-                "name": "Bloodclot Band",
-                "type": "Ring",
-                "unique": true,
-                "stamina": 8,
-                "intellect": 8,
-                "spirit": 7,
-                "quality": 3,
-                "healing": 15
-            },
-            {
                 "name": "Cyclopean Band",
                 "type": "Ring",
                 "unique": true,
@@ -4946,16 +4929,8 @@
                 "intellect": 7,
                 "spirit": 4,
                 "quality": 3,
-                "spellpower": 9
-            },
-            {
-                "name": "Magma Forged Band",
-                "type": "Ring",
-                "unique": true,
-                "strength": 7,
-                "agility": 12,
-                "stamina": 7,
-                "quality": 3
+                "spellpower": 9,
+                "healingpower": 9
             },
             {
                 "name": "Naglering",
@@ -4964,7 +4939,7 @@
                 "armor": 50,
                 "stamina": 10,
                 "defense": 5,
-                "arcaneReflect": 3,
+                "arcanethorns": 3,
                 "quality": 3
             },
             {
@@ -4973,7 +4948,7 @@
                 "stamina": 7,
                 "intellect": 12,
                 "spirit": 8,
-                "healing": 15,
+                "healingpower": 15,
                 "quality": 3
             },
             {
@@ -4984,19 +4959,12 @@
                 "quality": 3
             },
             {
-                "name": "Band of the Ogre King",
-                "type": "Ring",
-                "strength": 14,
-                "stamina": 13,
-                "quality": 3
-            },
-            {
                 "name": "Don Mauricio's Band of Domination",
                 "type": "Ring",
                 "unique": true,
                 "stamina": 5,
                 "spellpower": 11,
-                "healing": 11,
+                "healingpower": 11,
                 "spellcrit": 1,
                 "quality": 3
             },
@@ -5010,42 +4978,9 @@
                 "quality": 3
             },
             {
-                "name": "Innervating Band",
-                "type": "Ring",
-                "unique": true,
-                "agility": 15,
-                "stamina": 9,
-                "quality": 3
-            },
-            {
-                "name": "The Postmaster's Seal",
-                "type": "Ring",
-                "unique": true,
-                "stamina": 6,
-                "intellect": 3,
-                "spirit": 12,
-                "spellpower": 12,
-                "healing": 12,
-                "quality": 3
-            },
-            {
-                "name": "Band of Flesh",
-                "type": "Ring",
-                "unique": true,
-                "stamina": 8,
-                "quality": 3
-            },
-            {
-                "name": "Seal of the Archmagus",
-                "type": "Ring",
-                "unique": true,
-                "intellect": 12,
-                "spellpower": 18,
-                "quality": 3
-            },
-            {
                 "name": "Band of Jin",
-                "type": "Finger",
+                "type": "Ring",
+                "unique": true,
                 "agility": 14,
                 "stamina": 8,
                 "quality": 3,
@@ -5053,7 +4988,8 @@
             },
             {
                 "name": "Overlord's Crimson Band",
-                "type": "Finger",
+                "type": "Ring",
+                "unique": true,
                 "strength": 9,
                 "agility": 8,
                 "stamina": 10,
@@ -5062,15 +4998,17 @@
             },
             {
                 "name": "Primalist's Seal",
-                "type": "Finger",
+                "type": "Ring",
+                "unique": true,
                 "intellect": 12,
                 "spirit": 8,
                 "quality": 3,
-                "healing": 29
+                "healingpower": 29
             },
             {
                 "name": "Primalist's Band",
-                "type": "Finger",
+                "type": "Ring",
+                "unique": true,
                 "stamina": 8,
                 "intellect": 10,
                 "quality": 4,
@@ -5078,7 +5016,8 @@
             },
             {
                 "name": "Seal of Jin",
-                "type": "Finger",
+                "type": "Ring",
+                "unique": true,
                 "stamina": 8,
                 "quality": 4,
                 "meleecrit": 1,
@@ -5086,7 +5025,8 @@
             },
             {
                 "name": "Overlord's Onyx Band",
-                "type": "Finger",
+                "type": "Ring",
+                "unique": true,
                 "stamina": 11,
                 "quality": 4,
                 "block": 2,
@@ -5094,26 +5034,26 @@
             },
             {
                 "name": "Band of Servitude",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
-                "stamina": 11,
-                "intellect": 13,
+                "stamina": 8,
+                "intellect": 9,
                 "quality": 4,
                 "spellpower": 18,
-                "healing": 18
+                "healingpower": 18,
+                "spellcrit": 1
             },
             {
                 "name": "Seal of the Gurubashi Berserker",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
-                "stamina": 11,
+                "stamina": 13,
                 "quality": 4,
-                "meleecrit": 1,
-                "attackpower": 22
+                "attackpower": 40
             },
             {
                 "name": "Ring of Eternal Justice",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "strength": 12,
                 "stamina": 11,
@@ -5121,14 +5061,11 @@
                 "quality": 4,
                 "hit": 1,
                 "spellpower": 15,
-                "healing": 15,
-                "classRestriction": [
-                    "Paladin"
-                ]
+                "healingpower": 15
             },
             {
                 "name": "Ring of Fury",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "stamina": 9,
                 "quality": 3,
@@ -5137,18 +5074,18 @@
             },
             {
                 "name": "Ring of the Desert Winds",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "intellect": 9,
                 "quality": 3,
                 "spellcrit": 1,
                 "mp5": 3,
                 "spellpower": 9,
-                "healing": 9
+                "healingpower": 9
             },
             {
                 "name": "Heavy Dark Iron Ring",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "armor": 110,
                 "stamina": 20,
@@ -5157,14 +5094,13 @@
             },
             {
                 "name": "Ring of Spell Power",
-                "type": "Finger",
-                "unique": true,
+                "type": "Ring",
                 "quality": 4,
                 "spellpower": 33
             },
             {
                 "name": "Quick Strike Ring",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "strength": 5,
                 "stamina": 8,
@@ -5174,27 +5110,31 @@
             },
             {
                 "name": "Seal of the Archmagus",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "stamina": 11,
                 "intellect": 11,
                 "spirit": 11,
                 "quality": 4,
-                "allResistances": 6,
-                "spellpower": 19
+                "fireResistance": 6,
+                "natureResistance": 6,
+                "frostResistance": 6,
+                "shadowResistance": 6,
+                "arcaneResistance": 6,
+                "spellpower": 19,
+                "healingpower": 19
             },
             {
                 "name": "Cauterizing Band",
-                "type": "Finger",
-                "unique": true,
+                "type": "Ring",
                 "stamina": 9,
                 "intellect": 12,
                 "quality": 4,
-                "healing": 46
+                "healingpower": 46
             },
             {
                 "name": "Band of Accuria",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "agility": 16,
                 "stamina": 10,
@@ -5203,58 +5143,53 @@
             },
             {
                 "name": "Dragonslayer's Signet",
-                "type": "Finger",
+                "type": "Ring",
+                "unique": true,
                 "stamina": 8,
                 "intellect": 8,
                 "fireResistance": 10,
                 "quality": 4,
                 "spellcrit": 1,
-                "spellpower": 18
+                "spellpower": 18,
+                "healingpower": 18
             },
             {
                 "name": "Ring of Binding",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "armor": 100,
                 "stamina": 16,
                 "quality": 4,
                 "defense": 6,
-                "allResistances": 5
-            },
-            {
-                "name": "Royal Signet of Blackwald II",
-                "type": "Finger",
-                "unique": true,
-                "strength": 9,
-                "agility": 10,
-                "stamina": 10,
-                "intellect": 10,
-                "spirit": 9,
-                "quality": 4
+                "fireResistance": 5,
+                "natureResistance": 5,
+                "frostResistance": 5,
+                "shadowResistance": 5,
+                "arcaneResistance": 5
             },
             {
                 "name": "Ring of Blackrock",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "quality": 4,
                 "spellpower": 19,
-                "healing": 19,
+                "healingpower": 19,
                 "mp5": 9
             },
             {
                 "name": "Band of Forced Concentration",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "stamina": 9,
                 "intellect": 12,
                 "quality": 4,
                 "spellhit": 1,
                 "spellpower": 21,
-                "healing": 21
+                "healingpower": 21
             },
             {
                 "name": "Circle of Applied Force",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "strength": 12,
                 "agility": 22,
@@ -5263,7 +5198,7 @@
             },
             {
                 "name": "Archimtiros' Ring of Reckoning",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "agility": 14,
                 "stamina": 28,
@@ -5271,7 +5206,7 @@
             },
             {
                 "name": "Pure Elementium Band",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "stamina": 9,
                 "intellect": 10,
@@ -5281,7 +5216,7 @@
             },
             {
                 "name": "Master Dragonslayer's Ring",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "stamina": 14,
                 "quality": 4,
@@ -5290,16 +5225,17 @@
             },
             {
                 "name": "Ring of Nature's Duality",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "intellect": 7,
                 "quality": 4,
-                "healing": 40,
+                "healingpower": 40,
                 "spellcrit": 1
             },
             {
                 "name": "Ring of Nordrassil",
-                "type": "Finger",
+                "type": "Ring",
+                "unique": true,
                 "armor": 120,
                 "strength": 6,
                 "stamina": 18,
@@ -5308,16 +5244,16 @@
             },
             {
                 "name": "Ring of Swarming Thought",
-                "type": "Finger",
+                "type": "Ring",
                 "quality": 4,
                 "unique": true,
                 "spellpower": 26,
-                "healing": 26,
-                "spellTargetResistanceReduction": 20
+                "healingpower": 26,
+                "spellpen": 20
             },
             {
                 "name": "Angelista's Touch",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "strength": 11,
                 "stamina": 17,
@@ -5327,17 +5263,17 @@
             },
             {
                 "name": "Ring of the Devoured",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "stamina": 10,
                 "intellect": 13,
                 "quality": 4,
                 "mp5": 8,
-                "healing": 15
+                "healingpower": 15
             },
             {
                 "name": "Ring of the Qiraji Fury",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "stamina": 12,
                 "attackpower": 40,
@@ -5346,16 +5282,16 @@
             },
             {
                 "name": "Ring of the Martyr",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "stamina": 10,
-                "healing": 51,
+                "healingpower": 51,
                 "mp5": 5,
                 "quality": 4
             },
             {
                 "name": "Ring of Emperor Vek'lor",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "armor": 100,
                 "agility": 12,
@@ -5365,7 +5301,7 @@
             },
             {
                 "name": "Ring of the Godslayer",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "agility": 27,
                 "stamina": 17,
@@ -5373,28 +5309,40 @@
             },
             {
                 "name": "Ring of the Fallen God",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "stamina": 5,
                 "intellect": 6,
                 "spellpower": 37,
-                "healing": 37,
+                "healingpower": 37,
                 "spellhit": 1,
                 "quality": 4
             },
             {
                 "name": "Ritssyn's Ring of Chaos",
-                "type": "Finger",
+                "type": "Ring",
                 "unique": true,
                 "stamina": 6,
                 "spellpower": 25,
-                "healing": 25,
+                "healingpower": 25,
                 "spellcrit": 1,
                 "quality": 4
             },
             {
+                "name": "Medivh's Foresight",
+                "type": "Ring",
+                "intellect": 6,
+                "spirit": 11,
+                "meleehaste": 1,
+                "spellhaste": 1,
+                "spellpower": 16,
+                "healingpower": 16,
+                "unique": true,
+                "quality": 4
+            },
+            {
                 "name": "Medivh's Hindsight",
-                "type": "Finger",
+                "type": "Ring",
                 "stamina": 9,
                 "spellcrit": 2,
                 "spellhit": 2,
@@ -5403,7 +5351,7 @@
             },
             {
                 "name": "Loop of Hardened Slate",
-                "type": "Finger",
+                "type": "Ring",
                 "armor": 200,
                 "strength": 13,
                 "stamina": 19,
@@ -5413,72 +5361,73 @@
             },
             {
                 "name": "Mephistroth's Cunning",
-                "type": "Finger",
+                "type": "Ring",
                 "agility": 32,
                 "hit": 1,
-                "haste": 1,
+                "meleecrit": 1,
+                "spellhaste": 1,
                 "unique": true,
                 "quality": 4
             },
             {
                 "name": "Felforged Nathrezan Circlet",
-                "type": "Finger",
+                "type": "Ring",
                 "stamina": 7,
                 "intellect": 11,
                 "spellpower": 29,
-                "healing": 29,
-                "spellcrit": 28,
+                "healingpower": 29,
+                "spellcrit": 2,
                 "unique": true,
                 "quality": 4
             },
             {
                 "name": "Felforged Nathrezan Aureole",
-                "type": "Finger",
+                "type": "Ring",
                 "stamina": 10,
                 "intellect": 9,
-                "healing": 73,
-                "spellcrit": 14,
+                "healingpower": 73,
+                "spellcrit": 1,
                 "unique": true,
                 "quality": 4
             },
             {
                 "name": "Band of Reanimation",
-                "type": "Finger",
+                "type": "Ring",
                 "agility": 34,
                 "unique": true,
                 "quality": 4
             },
             {
                 "name": "Band of Unanswered Prayers",
-                "type": "Finger",
+                "type": "Ring",
                 "stamina": 11,
                 "intellect": 11,
                 "spirit": 12,
-                "healing": 51,
+                "healingpower": 51,
                 "unique": true,
                 "quality": 4
             },
             {
                 "name": "Band of the Inevitable",
-                "type": "Finger",
+                "type": "Ring",
                 "spellpower": 36,
-                "healing": 36,
+                "healingpower": 36,
                 "spellhit": 14,
                 "unique": true,
                 "quality": 4
             },
             {
                 "name": "Hailstone Band",
-                "type": "Finger",
+                "type": "Ring",
                 "stamina": 18,
                 "frostResistance": 20,
-                "dodge": 14,
+                "dodge": 1,
                 "unique": true,
                 "quality": 4
             },
             {
                 "name": "Band of Unnatural Forces",
-                "type": "Finger",
+                "type": "Ring",
                 "meleecrit": 1,
                 "hit": 1,
                 "attackpower": 52,
@@ -5487,10 +5436,10 @@
             },
             {
                 "name": "Seal of the Damned",
-                "type": "Finger",
+                "type": "Ring",
                 "stamina": 17,
                 "spellpower": 21,
-                "healing": 21,
+                "healingpower": 21,
                 "spellhit": 1,
                 "spellcrit": 1,
                 "unique": true,
@@ -5498,7 +5447,7 @@
             },
             {
                 "name": "Ring of the Unliving",
-                "type": "Finger",
+                "type": "Ring",
                 "agility": 22,
                 "stamina": 18,
                 "unique": true,
@@ -5506,7 +5455,7 @@
             },
             {
                 "name": "Malfurion's Signet Ring",
-                "type": "Finger",
+                "type": "Ring",
                 "stamina": 20,
                 "natureresistance": 20,
                 "unique": true,
@@ -5514,21 +5463,41 @@
             },
             {
                 "name": "Mindtear Band",
-                "type": "Finger",
+                "type": "Ring",
                 "stamina": 9,
                 "intellect": 9,
                 "spellpower": 22,
-                "healing": 22,
+                "healingpower": 22,
                 "spellcrit": 1,
                 "unique": true,
                 "quality": 4
             },
             {
-                "name": "Signet Ring of the Bronze Dragonflight",
+                "name": "Signet Ring of the Bronze Dragonflight (Tank)",
                 "type": "Ring",
                 "strength": 13,
                 "stamina": 24,
                 "defense": 7,
+                "quality": 4,
+                "unique": true
+            },
+            {
+                "name": "Signet Ring of the Bronze Dragonflight (AP)",
+                "type": "Ring",
+                "agility": 24,
+                "stamina": 13,
+                "meleehit": 1,
+                "quality": 4,
+                "unique": true
+            },
+            {
+                "name": "Signet Ring of the Bronze Dragonflight (SP)",
+                "type": "Ring",
+                "stamina": 8,
+                "intellect": 9,
+                "spellpower": 28,
+                "healingpower": 28,
+                "mp5": 5,
                 "quality": 4,
                 "unique": true
             }
@@ -5553,14 +5522,9 @@
                 "armor": 120,
                 "stamina": 12,
                 "fireResistance": 5,
-                "haste": 1,
+                "meleehaste": 1,
+                "spellhaste": 1,
                 "quality": 3
-            },
-            {
-                "name": "Force of Will",
-                "type": "Trinket",
-                "quality": 3,
-                "defense": 7
             },
             {
                 "name": "Royal Seal of Eldre'Thalas",
@@ -5569,14 +5533,7 @@
                 "fireResistance": 10,
                 "defense": 8,
                 "spellpower": 18,
-                "healing": 15,
-                "quality": 3
-            },
-            {
-                "name": "Counterattack Lodestone",
-                "type": "Trinket",
-                "parry": 1,
-                "attackpower": 34,
+                "healingpower": 33,
                 "quality": 3
             },
             {
@@ -5587,20 +5544,11 @@
                 "quality": 3
             },
             {
-                "name": "Mark of Tyranny",
-                "type": "Trinket",
-                "unique": true,
-                "armor": 180,
-                "arcaneResistance": 10,
-                "dodge": 1,
-                "quality": 3
-            },
-            {
                 "name": "Briarwood Reed",
                 "type": "Trinket",
                 "unique": true,
                 "spellpower": 29,
-                "healing": 29,
+                "healingpower": 29,
                 "quality": 3
             },
             {
@@ -5609,32 +5557,18 @@
                 "unique": true,
                 "intellect": -20,
                 "spellpower": 30,
-                "healing": 30,
+                "healingpower": 30,
                 "mp5": 7,
-                "quality": 3
-            },
-            {
-                "name": "Mark of the Chosen",
-                "type": "Trinket",
-                "unique": true,
-                "attackpower": 25,
-                "quality": 3
-            },
-            {
-                "name": "Talisman of Ephemeral Power",
-                "type": "Trinket",
-                "unique": true,
-                "spellpower": 30,
                 "quality": 3
             },
             {
                 "name": "Onyxia Blood Talisman",
                 "type": "Trinket",
+                "unique": true,
                 "fireResistance": 15,
                 "quality": 4,
                 "parry": 2,
-                "defense": 7,
-                "healingper5": 7
+                "defense": 7
             },
             {
                 "name": "Araxxna's Husk",
@@ -5650,7 +5584,7 @@
                 "type": "Trinket",
                 "unique": true,
                 "quality": 4,
-                "healing": 44,
+                "healingpower": 44,
                 "mp5": 7
             },
             {
@@ -5658,7 +5592,6 @@
                 "type": "Trinket",
                 "unique": true,
                 "quality": 4,
-                "lifeSteal": 2,
                 "armorpen": 50
             },
             {
@@ -5667,15 +5600,15 @@
                 "unique": true,
                 "quality": 4,
                 "dodge": 1,
-                "melee_haste": 2,
-                "spell_haste": 2
+                "meleehaste": 2,
+                "spellhaste": 2
             },
             {
                 "name": "Rejuvenating Gem",
                 "type": "Trinket",
                 "unique": true,
                 "quality": 4,
-                "healing": 66,
+                "healingpower": 66,
                 "mp5": 9
             },
             {
@@ -5692,7 +5625,7 @@
                 "type": "Trinket",
                 "unique": true,
                 "quality": 4,
-                "blockchance": 5,
+                "block": 5,
                 "blockvalue": 24,
                 "defense": 13
             },
@@ -5711,7 +5644,7 @@
                 "natureResistance": 10,
                 "quality": 4,
                 "spellpower": 37,
-                "healing": 37,
+                "healingpower": 37,
                 "spellhit": 1
             },
             {
@@ -5720,8 +5653,7 @@
                 "quality": 4,
                 "meleehaste": 2,
                 "spellhaste": 2,
-                "meleecrit": 2,
-                "hp5": 5
+                "meleecrit": 2
             },
             {
                 "name": "Breath of Solnius",
@@ -5729,7 +5661,7 @@
                 "unique": true,
                 "spirit": 11,
                 "quality": 4,
-                "healing": 30
+                "healingpower": 30
             },
             {
                 "name": "Corrupted Reed",
@@ -5738,15 +5670,15 @@
                 "shadowResistance": -10,
                 "quality": 4,
                 "spellpower": 37,
-                "healing": 37
+                "healingpower": 37
             },
             {
                 "name": "Remains of Overwhelming Power",
                 "type": "Trinket",
                 "unique": true,
-                "arcaneresistance": 35,
-                "spellpower": 19,
-                "healing": 19,
+                "arcaneresistance": 10,
+                "spellpower": 51,
+                "healingpower": 51,
                 "quality": 4
             },
             {
@@ -5762,14 +5694,14 @@
             {
                 "name": "Pure Jewel of Draenor",
                 "type": "Trinket",
-                "healing": 77,
+                "healingpower": 77,
                 "unique": true,
                 "quality": 4
             },
             {
                 "name": "Warmth of Forgiveness",
                 "type": "Trinket",
-                "healing": 33,
+                "healingpower": 33,
                 "mp5": 10,
                 "unique": true,
                 "quality": 4
@@ -5777,7 +5709,7 @@
             {
                 "name": "Glyph of Deflection",
                 "type": "Trinket",
-                "blockchance": 3,
+                "block": 3,
                 "blockvalue": 23,
                 "unique": true,
                 "quality": 4
@@ -5785,7 +5717,7 @@
             {
                 "name": "Eye of the Dead",
                 "type": "Trinket",
-                "healing": 70,
+                "healingpower": 70,
                 "unique": true,
                 "quality": 4
             },
@@ -5800,7 +5732,7 @@
                 "name": "The Restrained Essence of Sapphiron",
                 "type": "Trinket",
                 "spellpower": 40,
-                "healing": 40,
+                "healingpower": 40,
                 "unique": true,
                 "quality": 4
             },
@@ -5820,46 +5752,11 @@
         "Class": "Weapons",
         "items": [
             {
-                "name": "Arbiter's Blade",
-                "type": "Sword",
-                "slot": "Main Hand",
-                "minDamage": 59,
-                "maxDamage": 110,
-                "speed": 2.4,
-                "armor": 0,
-                "stamina": 8,
-                "intellect": 5,
-                "quality": 3,
-                "spellpower": 8
-            },
-            {
-                "name": "Doomforged Straightedge",
-                "type": "Sword",
-                "slot": "One-Hand",
-                "minDamage": 47,
-                "maxDamage": 89,
-                "speed": 1.9,
-                "strength": 10,
-                "quality": 3,
-                "attackpower": 12
-            },
-            {
-                "name": "Ribsplitter",
-                "type": "Axe",
-                "slot": "Main Hand",
-                "minDamage": 66,
-                "maxDamage": 124,
-                "speed": 2.7,
-                "quality": 3,
-                "attackpower": 10
-            },
-            {
                 "name": "Lavastone Hammer",
-                "type": "Mace",
-                "slot": "Two-Hand",
+                "type": "2H Mace",
                 "minDamage": 135,
                 "maxDamage": 203,
-                "speed": 3.4,
+                "speed": 3.40,
                 "strength": 10,
                 "stamina": 14,
                 "intellect": 12,
@@ -5868,11 +5765,10 @@
             },
             {
                 "name": "Impervious Giant",
-                "type": "Mace",
-                "slot": "Two-Hand",
+                "type": "2H Mace",
                 "minDamage": 105,
                 "maxDamage": 159,
-                "speed": 2.7,
+                "speed": 2.70,
                 "armor": 30,
                 "quality": 3,
                 "hit": 1,
@@ -5880,162 +5776,106 @@
             },
             {
                 "name": "The Hammer of Grace",
-                "type": "Mace",
-                "slot": "Main Hand",
+                "type": "1H Mace",
                 "minDamage": 71,
                 "maxDamage": 132,
-                "speed": 2.7,
+                "speed": 2.70,
                 "quality": 3,
-                "healing": 31
+                "healingpower": 31
             },
             {
                 "name": "Energetic Rod",
-                "type": "Mace",
-                "slot": "Main Hand",
+                "type": "1H Mace",
                 "minDamage": 71,
                 "maxDamage": 107,
-                "speed": 2.3,
+                "speed": 2.30,
                 "intellect": 5,
                 "quality": 3,
                 "spellpower": 14,
-                "healing": 14
-            },
-            {
-                "name": "Hammer of Revitalization",
-                "type": "Mace",
-                "slot": "Main Hand",
-                "minDamage": 75,
-                "maxDamage": 141,
-                "speed": 2.7,
-                "stamina": 5,
-                "quality": 3,
-                "healing": 26
+                "healingpower": 14
             },
             {
                 "name": "Huntsman's Harpoon",
-                "type": "Polearm",
-                "slot": "Two-Hand",
+                "type": "2H Polearm",
                 "minDamage": 150,
                 "maxDamage": 226,
-                "speed": 3.6,
+                "speed": 3.60,
                 "agility": 35,
                 "quality": 3
             },
             {
-                "name": "Timeworn Mace",
-                "type": "Mace",
-                "slot": "One-Hand",
-                "minDamage": 62,
-                "maxDamage": 117,
-                "speed": 2.2,
-                "armor": 120,
-                "strength": 7,
-                "stamina": 11,
-                "quality": 3
-            },
-            {
                 "name": "Mind Carver",
-                "type": "Sword",
-                "slot": "Main Hand",
+                "type": "1H Sword",
                 "minDamage": 57,
                 "maxDamage": 106,
-                "speed": 2.0,
+                "speed": 2.00,
                 "intellect": 8,
                 "spellpower": 12,
+                "healingpower": 12,
                 "quality": 3
             },
             {
                 "name": "Barbarous Blade",
-                "type": "Sword",
-                "slot": "Two-Hand",
+                "type": "2H Sword",
                 "minDamage": 138,
                 "maxDamage": 207,
-                "speed": 3.2,
+                "speed": 3.20,
                 "meleecrit": 1,
                 "attackpower": 60,
                 "quality": 3
             },
             {
-                "name": "Monstrous Glaive",
-                "type": "Polearm",
-                "slot": "Two-Hand",
-                "minDamage": 123,
-                "maxDamage": 185,
-                "speed": 2.9,
-                "stamina": 24,
-                "parry": 1,
-                "defense": 10,
-                "quality": 3
-            },
-            {
                 "name": "Hammer of Divine Might",
-                "type": "Mace",
-                "slot": "Two-Hand",
+                "type": "2H Mace",
                 "minDamage": 89,
                 "maxDamage": 134,
-                "speed": 2.1,
+                "speed": 2.10,
                 "stamina": 13,
                 "intellect": 15,
                 "spellpower": 27,
-                "healing": 27,
+                "healingpower": 27,
                 "quality": 3
             },
             {
                 "name": "Hammer of the Grand Crusader",
-                "type": "Mace",
-                "slot": "Two-Hand",
+                "type": "2H Mace",
                 "minDamage": 116,
                 "maxDamage": 175,
-                "speed": 2.7,
+                "speed": 2.70,
                 "stamina": 10,
                 "intellect": 26,
                 "spirit": 9,
-                "healing": 22,
+                "healingpower": 22,
                 "quality": 3
             },
             {
                 "name": "Crimson Spellblade",
-                "type": "Sword",
-                "slot": "Main Hand",
+                "type": "1H Sword",
                 "minDamage": 53,
                 "maxDamage": 99,
-                "speed": 1.9,
+                "speed": 1.90,
                 "stamina": 10,
                 "spellpower": 11,
-                "healing": 11,
-                "fireDamage": 2,
+                "healingpower": 11,
+                "firespellstrike": 2,
                 "quality": 3
             },
             {
                 "name": "Fist of Omokk",
-                "type": "Mace",
-                "slot": "Two-Hand",
+                "type": "2H Mace",
                 "minDamage": 135,
                 "maxDamage": 204,
-                "speed": 3.3,
+                "speed": 3.30,
                 "strength": 29,
                 "stamina": 12,
                 "quality": 3
             },
             {
-                "name": "Mastersmith's Hammer",
-                "type": "Mace",
-                "slot": "Main Hand",
-                "minDamage": 66,
-                "maxDamage": 123,
-                "speed": 2.4,
-                "intellect": 5,
-                "spellpower": 14,
-                "healing": 14,
-                "quality": 3
-            },
-            {
                 "name": "Cryptkeeper's Pike",
-                "type": "Polearm",
-                "slot": "Two-Hand",
+                "type": "2H Polearm",
                 "minDamage": 160,
                 "maxDamage": 245,
-                "speed": 3.7,
+                "speed": 3.70,
                 "strength": 25,
                 "spirit": 18,
                 "hit": 1,
@@ -6043,11 +5883,10 @@
             },
             {
                 "name": "Bloodlord's Defender",
-                "type": "Sword",
-                "slot": "Main-Hand",
+                "type": "1H Sword",
                 "minDamage": 64,
                 "maxDamage": 119,
-                "speed": 1.9,
+                "speed": 1.90,
                 "armor": 80,
                 "stamina": 15,
                 "quality": 4,
@@ -6055,57 +5894,53 @@
             },
             {
                 "name": "Jin'do's Hexxer",
-                "type": "Mace",
-                "slot": "Main-Hand",
+                "type": "1H Mace",
                 "minDamage": 64,
                 "maxDamage": 135,
-                "speed": 2.4,
+                "speed": 2.40,
                 "stamina": 6,
                 "intellect": 9,
                 "quality": 4,
-                "healing": 51,
+                "healingpower": 51,
                 "spellcrit": 1
             },
             {
                 "name": "Bloodcaller",
-                "type": "Sword",
-                "slot": "Main-Hand",
+                "type": "1H Sword",
                 "minDamage": 52,
                 "maxDamage": 114,
-                "speed": 2.0,
+                "speed": 2.00,
                 "stamina": 12,
                 "intellect": 15,
                 "quality": 4,
-                "spellpower": 33
+                "spellpower": 33,
+                "healingpower": 33
             },
             {
                 "name": "Zin'rokh, Destroyer of Worlds",
-                "type": "Sword",
-                "slot": "Two-Hand",
+                "type": "2H Sword",
                 "minDamage": 196,
                 "maxDamage": 295,
-                "speed": 3.8,
+                "speed": 3.80,
                 "stamina": 28,
                 "quality": 4,
                 "attackpower": 72
             },
             {
                 "name": "Zulian Scepter of Rites",
-                "type": "Mace",
-                "slot": "One-Hand",
+                "type": "1H Mace",
                 "minDamage": 71,
                 "maxDamage": 143,
-                "speed": 2.6,
+                "speed": 2.60,
                 "stamina": 9,
                 "intellect": 8,
                 "quality": 4,
-                "healing": 26,
+                "healingpower": 26,
                 "mp5": 4
             },
             {
                 "name": "Gavel of Qiraji Authority",
-                "type": "Mace",
-                "slot": "Two-Hand",
+                "type": "2H Mace",
                 "minDamage": 108,
                 "maxDamage": 162,
                 "speed": 2.20,
@@ -6114,13 +5949,12 @@
                 "intellect": 16,
                 "quality": 3,
                 "spellpower": 19,
-                "healing": 19,
+                "healingpower": 19,
                 "mp5": 6
             },
             {
                 "name": "Manslayer of the Qiraji",
-                "type": "Sword",
-                "slot": "Two-Hand",
+                "type": "2H Sword",
                 "minDamage": 180,
                 "maxDamage": 270,
                 "speed": 3.60,
@@ -6131,8 +5965,7 @@
             },
             {
                 "name": "Blade of Eternal Justice",
-                "type": "Sword",
-                "slot": "Main-Hand",
+                "type": "1H Sword",
                 "minDamage": 73,
                 "maxDamage": 137,
                 "speed": 1.90,
@@ -6141,15 +5974,11 @@
                 "quality": 4,
                 "dodge": 1,
                 "spellpower": 40,
-                "healing": 40,
-                "classRestriction": [
-                    "Paladin"
-                ]
+                "healingpower": 40
             },
             {
                 "name": "Stinger of Ayamiss",
-                "type": "Mace",
-                "slot": "Main-Hand",
+                "type": "1H Mace",
                 "minDamage": 63,
                 "maxDamage": 137,
                 "speed": 2.40,
@@ -6158,12 +5987,11 @@
                 "quality": 3,
                 "spellcrit": 1,
                 "spellpower": 36,
-                "healing": 36
+                "healingpower": 36
             },
             {
                 "name": "Obsidian Edged Blade",
-                "type": "Sword",
-                "slot": "Two-Hand",
+                "type": "2H Sword",
                 "minDamage": 176,
                 "maxDamage": 264,
                 "speed": 3.40,
@@ -6173,8 +6001,7 @@
             },
             {
                 "name": "Aurastone Hammer",
-                "type": "Mace",
-                "slot": "One-Hand",
+                "type": "1H Mace",
                 "minDamage": 78,
                 "maxDamage": 162,
                 "speed": 2.70,
@@ -6182,25 +6009,12 @@
                 "intellect": 10,
                 "quality": 4,
                 "mp5": 5,
-                "spellpower": 33
-            },
-            {
-                "name": "Brutality Blade",
-                "type": "Sword",
-                "slot": "One-Hand",
-                "minDamage": 90,
-                "maxDamage": 168,
-                "speed": 2.50,
-                "strength": 9,
-                "agility": 9,
-                "quality": 4,
-                "unique": true,
-                "meleecrit": 1
+                "spellpower": 33,
+                "healingpower": 33
             },
             {
                 "name": "Azuresong Mageblade",
-                "type": "Sword",
-                "slot": "Main-Hand",
+                "type": "1H Sword",
                 "minDamage": 64,
                 "maxDamage": 140,
                 "speed": 2.40,
@@ -6208,12 +6022,12 @@
                 "intellect": 12,
                 "quality": 4,
                 "spellcrit": 1,
-                "spellpower": 40
+                "spellpower": 40,
+                "healingpower": 40
             },
             {
                 "name": "Finkle's Lava Dredger",
-                "type": "Mace",
-                "slot": "Two-Hand",
+                "type": "2H Mace",
                 "minDamage": 129,
                 "maxDamage": 215,
                 "speed": 2.90,
@@ -6221,99 +6035,64 @@
                 "intellect": 24,
                 "quality": 4,
                 "fireResistance": 15,
-                "healing": 84
-            },
-            {
-                "name": "Bonereaver's Edge",
-                "type": "Sword",
-                "slot": "Two-Hand",
-                "minDamage": 206,
-                "maxDamage": 310,
-                "speed": 3.40,
-                "stamina": 16,
-                "quality": 4,
-                "meleecrit": 1
-            },
-            {
-                "name": "Lavashard Axe",
-                "type": "Axe",
-                "slot": "One-Hand",
-                "minDamage": 79,
-                "maxDamage": 147,
-                "speed": 2.40,
-                "armor": 50,
-                "stamina": 6,
-                "quality": 4,
-                "unique": true,
-                "meleecrit": 1
+                "healingpower": 84
             },
             {
                 "name": "Anasterian's Legacy",
-                "type": "Sword",
-                "slot": "One-Hand",
+                "type": "1H Sword",
                 "minDamage": 54,
                 "maxDamage": 101,
                 "speed": 1.50,
                 "agility": 9,
                 "stamina": 12,
                 "quality": 4,
-                "unique": true,
                 "swords": 4
             },
             {
                 "name": "Dawnstone Bludgeon",
-                "type": "Mace",
-                "slot": "One-Hand",
+                "type": "1H Mace",
                 "minDamage": 75,
                 "maxDamage": 140,
                 "speed": 2.40,
                 "stamina": 11,
                 "quality": 4,
-                "unique": true,
                 "blockValue": 15
             },
             {
                 "name": "Skycleaver",
-                "type": "Axe",
-                "slot": "One-Hand",
+                "type": "1H Axe",
                 "minDamage": 71,
                 "maxDamage": 135,
                 "speed": 2.30,
                 "quality": 4,
-                "unique": true,
                 "meleecrit": 1,
-                "melee_haste": 1,
-                "spell_haste": 1
+                "meleehaste": 1,
+                "spellhaste": 1
             },
             {
                 "name": "Spineshatter",
-                "type": "Mace",
-                "slot": "Main Hand",
+                "type": "1H Mace",
                 "minDamage": 99,
                 "maxDamage": 184,
                 "speed": 2.60,
                 "strength": 9,
                 "stamina": 13,
                 "quality": 4,
-                "unique": true,
                 "maces": 5
             },
             {
                 "name": "Maladath, Runed Blade of the Black Flight",
-                "type": "Sword",
-                "slot": "One-Hand",
+                "type": "1H Sword",
                 "minDamage": 86,
                 "maxDamage": 162,
                 "speed": 2.20,
                 "quality": 4,
-                "unique": true,
                 "parry": 1,
                 "swords": 5
             },
             {
                 "name": "Herald of Woe",
-                "type": "Mace",
-                "slot": "Two-Hand",
+                "type": "2H Mace",
                 "minDamage": 199,
                 "maxDamage": 300,
                 "speed": 3.40,
@@ -6324,22 +6103,8 @@
                 "quality": 4
             },
             {
-                "name": "Chromatically Tempered Sword",
-                "type": "Sword",
-                "slot": "One-Hand",
-                "minDamage": 106,
-                "maxDamage": 198,
-                "speed": 2.60,
-                "strength": 14,
-                "agility": 14,
-                "stamina": 7,
-                "quality": 4,
-                "unique": true
-            },
-            {
                 "name": "Lok'amir il Romathis",
-                "type": "Mace",
-                "slot": "Main Hand",
+                "type": "1H Mace",
                 "minDamage": 47,
                 "maxDamage": 128,
                 "speed": 2.10,
@@ -6347,26 +6112,12 @@
                 "intellect": 18,
                 "spirit": 8,
                 "quality": 4,
-                "unique": true,
                 "spellpower": 84,
-                "healing": 84
-            },
-            {
-                "name": "Crul'shorukh, Edge of Chaos",
-                "type": "Axe",
-                "slot": "One-Hand",
-                "minDamage": 101,
-                "maxDamage": 188,
-                "speed": 2.30,
-                "stamina": 13,
-                "quality": 4,
-                "unique": true,
-                "attackpower": 36
+                "healingpower": 84
             },
             {
                 "name": "Ashkandi, Greatsword of the Brotherhood",
-                "type": "Sword",
-                "slot": "Two-Hand",
+                "type": "2H Sword",
                 "minDamage": 229,
                 "maxDamage": 344,
                 "speed": 3.50,
@@ -6376,8 +6127,7 @@
             },
             {
                 "name": "Draconic Maul",
-                "type": "Mace",
-                "slot": "Two-Hand",
+                "type": "2H Mace",
                 "minDamage": 187,
                 "maxDamage": 282,
                 "speed": 3.50,
@@ -6388,8 +6138,7 @@
             },
             {
                 "name": "Jadestone Skewer",
-                "type": "Polearm",
-                "slot": "Two-Hand",
+                "type": "2H Polearm",
                 "minDamage": 158,
                 "maxDamage": 294,
                 "speed": 3.10,
@@ -6399,8 +6148,7 @@
             },
             {
                 "name": "Jadestone Mallet",
-                "type": "Mace",
-                "slot": "Main Hand",
+                "type": "1H Mace",
                 "minDamage": 60,
                 "maxDamage": 131,
                 "speed": 2.30,
@@ -6408,55 +6156,22 @@
                 "intellect": 10,
                 "spirit": 13,
                 "quality": 4,
-                "unique": true,
-                "healing": 106
+                "healingpower": 106
             },
             {
                 "name": "Mallet of the Awakening",
-                "type": "Mace",
-                "slot": "Main Hand",
+                "type": "1H Mace",
                 "minDamage": 76,
                 "maxDamage": 140,
                 "speed": 1.80,
                 "stamina": 11,
                 "quality": 4,
-                "blockchance": 2,
+                "block": 2,
                 "blockvalue": 21
             },
             {
-                "name": "Axe of Dormant Slumber",
-                "type": "Axe",
-                "slot": "One-Hand",
-                "unique": true,
-                "minDamage": 92,
-                "maxDamage": 171,
-                "speed": 2.20,
-                "armor": 100,
-                "strength": 9,
-                "stamina": 11,
-                "quality": 4,
-                "hit": 1,
-                "parry": 17
-            },
-            {
-                "name": "Crystal Sword of the Blossom",
-                "type": "Sword",
-                "slot": "One-Hand",
-                "unique": true,
-                "minDamage": 79,
-                "maxDamage": 147,
-                "speed": 1.80,
-                "stamina": 11,
-                "natureResistance": 7,
-                "quality": 4,
-                "hit": 1,
-                "attackpower": 20,
-                "swords": 3
-            },
-            {
                 "name": "Hammer of Ji'zhi",
-                "type": "Mace",
-                "slot": "Two-Hand",
+                "type": "2H Mace",
                 "minDamage": 198,
                 "maxDamage": 297,
                 "speed": 3.5,
@@ -6465,12 +6180,11 @@
                 "intellect": 22,
                 "quality": 4,
                 "spellpower": 30,
-                "healing": 30
+                "healingpower": 30
             },
             {
                 "name": "Barb of the Sand Reaver",
-                "type": "Polearm",
-                "slot": "Two-Hand",
+                "type": "2H Polearm",
                 "minDamage": 225,
                 "maxDamage": 338,
                 "speed": 3.70,
@@ -6480,51 +6194,45 @@
             },
             {
                 "name": "Sharpened Silithid Femur",
-                "type": "Sword",
-                "slot": "Main Hand",
+                "type": "1H Sword",
                 "minDamage": 53,
                 "maxDamage": 137,
                 "speed": 2.30,
                 "stamina": 14,
                 "intellect": 7,
                 "spellpower": 72,
-                "healing": 72,
+                "healingpower": 72,
                 "spellcrit": 1,
-                "unique": true,
                 "quality": 4
             },
             {
                 "name": "Ivonor, Maiden's Mallet",
-                "type": "Mace",
-                "slot": "One-Hand",
+                "type": "1H Mace",
                 "minDamage": 68,
                 "maxDamage": 124,
                 "speed": 2.20,
                 "stamina": 10,
                 "intellect": 9,
-                "healing": 143,
+                "healingpower": 143,
                 "mp5": 4,
                 "spellcrit": 1,
-                "unique": true,
                 "quality": 4
             },
             {
                 "name": "Scepter of the False Prophet",
-                "type": "Mace",
-                "slot": "Main Hand",
+                "type": "1H Mace",
                 "minDamage": 38,
                 "maxDamage": 112,
                 "speed": 1.80,
                 "stamina": 10,
                 "intellect": 19,
-                "healing": 187,
+                "healingpower": 187,
                 "mp5": 3,
                 "quality": 4
             },
             {
                 "name": "Runesword of the Red",
-                "type": "Sword",
-                "slot": "Main Hand",
+                "type": "1H Sword",
                 "minDamage": 52,
                 "maxDamage": 129,
                 "speed": 2.20,
@@ -6532,155 +6240,73 @@
                 "intellect": 9,
                 "spirit": 7,
                 "spellpower": 64,
-                "healing": 64,
-                "unique": true,
+                "healingpower": 64,
                 "quality": 4
             },
             {
-                "name": "Ravencrest's Legacy",
-                "type": "Sword",
-                "slot": "One-Hand",
-                "minDamage": 84,
-                "maxDamage": 157,
-                "speed": 2.10,
-                "strength": 13,
-                "agility": 9,
-                "stamina": 14,
-                "unique": true,
-                "quality": 4
-            },
-            {
-                "name": "Checkmate",
-                "type": "Mace",
-                "slot": "Two-Hand",
-                "minDamage": 273,
-                "maxDamage": 419,
-                "speed": 3.70,
-                "agility": 40,
-                "stamina": 25,
-                "haste": 2,
-                "ignoreArmor": 40,
-                "unique": true,
-                "quality": 4
-            },
-            {
-                "name": "Desecration",
-                "type": "Sword",
-                "slot": "Main-Hand",
-                "minDamage": 106,
-                "maxDamage": 193,
-                "speed": 2.20,
-                "stamina": 16,
-                "intellect": 11,
-                "spellpower": 128,
-                "healing": 128,
-                "haste": 2,
-                "unique": true,
-                "quality": 4
-            },
-            {
-                "name": "Comet Signaller",
-                "type": "Mace",
-                "slot": "One-Hand",
-                "minDamage": 62,
-                "maxDamage": 137,
-                "speed": 2.30,
-                "stamina": 15,
-                "intellect": 15,
-                "spellpower": 140,
-                "healing": 140,
-                "spellresistancereduction": 10,
-                "unique": true,
+                "name": "The End of All Ambitions",
+                "type": "2H Sword",
+                "minDamage": 207,
+                "maxDamage": 385,
+                "speed": 3.50,
+                "strength": 45,
+                "stamina": 24,
+                "meleecrit": 1,
                 "quality": 4
             },
             {
                 "name": "The End of Dreams",
-                "type": "Mace",
-                "slot": "One Hand",
+                "type": "1H Mace",
                 "minDamage": 44,
                 "maxDamage": 120,
                 "speed": 1.90,
                 "stamina": 13,
                 "intellect": 13,
                 "spellpower": 95,
-                "healing": 95,
-                "attackpower": 322,
+                "healingpower": 95,
                 "mp5": 5,
-                "unique": true,
-                "quality": 4
-            },
-            {
-                "name": "The Widow's Embrace",
-                "type": "Mace",
-                "slot": "One Hand",
-                "minDamage": 42,
-                "maxDamage": 116,
-                "speed": 1.90,
-                "stamina": 12,
-                "intellect": 12,
-                "spirit": 14,
-                "healing": 178,
-                "unique": true,
-                "quality": 4
-            },
-            {
-                "name": "Widow's Remorse",
-                "type": "Sword",
-                "slot": "One Hand",
-                "minDamage": 76,
-                "maxDamage": 133,
-                "speed": 1.60,
-                "armor": 100,
-                "agility": 8,
-                "stamina": 15,
-                "hit": 14,
-                "unique": true,
-                "quality": 4
-            },
-            {
-                "name": "Wraith Blade",
-                "type": "Sword",
-                "slot": "One Hand",
-                "minDamage": 38,
-                "maxDamage": 109,
-                "speed": 1.80,
-                "stamina": 10,
-                "intellect": 8,
-                "spellpower": 95,
-                "healing": 95,
-                "spellhit": 14,
-                "spellcrit": 14,
-                "unique": true,
-                "quality": 4
-            },
-            {
-                "name": "The End of All Ambitions",
-                "type": "Sword",
-                "slot": "Two Hand",
-                "minDamage": 207,
-                "maxDamage": 385,
-                "speed": 3.50,
-                "strength": 45,
-                "stamina": 24,
-                "meleecrit": 14,
                 "quality": 4
             },
             {
                 "name": "Claymore of Unholy Might",
-                "type": "Sword",
-                "slot": "Two Hand",
+                "type": "2H Sword",
                 "minDamage": 242,
                 "maxDamage": 366,
-                "speed": 3.60,
+                "speed": 3.6,
                 "stamina": 20,
                 "attackpower": 98,
                 "twoHandedSwords": 7,
                 "quality": 4
             },
             {
+                "name": "The Widow's Embrace",
+                "type": "1H Mace",
+                "minDamage": 42,
+                "maxDamage": 116,
+                "speed": 1.90,
+                "stamina": 12,
+                "intellect": 12,
+                "spirit": 14,
+                "healingpower": 178,
+                "quality": 4
+            },
+            {
+                "name": "Wraith Blade",
+                "type": "1H Sword",
+                "minDamage": 38,
+                "maxDamage": 109,
+                "speed": 1.80,
+                "stamina": 10,
+                "intellect": 8,
+                "spellpower": 95,
+                "healingpower": 95,
+                "spellhit": 1,
+                "spellcrit": 1,
+                "quality": 4
+            },
+            {
                 "name": "The Eye of Nerub",
-                "type": "Polearm",
-                "slot": "Two Hand",
+                "type": "2H Polearm",
                 "minDamage": 251,
                 "maxDamage": 378,
                 "speed": 3.70,
@@ -6690,37 +6316,22 @@
                 "quality": 4
             },
             {
-                "name": "Hammer of the Twisting Nether",
-                "type": "Mace",
-                "slot": "Main Hand",
-                "minDamage": 36,
-                "maxDamage": 120,
-                "speed": 1.90,
-                "stamina": 8,
-                "intellect": 11,
-                "healing": 238,
-                "mp5": 8,
-                "unique": true,
-                "quality": 4
-            },
-            {
                 "name": "Maul of the Redeemed Crusader",
-                "type": "Mace",
-                "slot": "Two Hand",
+                "type": "2H Mace",
                 "minDamage": 259,
                 "maxDamage": 389,
                 "speed": 3.60,
                 "stamina": 29,
                 "intellect": 20,
-                "haste": 1,
+                "meleehaste": 1,
+                "spellhaste": 1,
                 "spellpower": 40,
-                "healing": 40,
+                "healingpower": 40,
                 "quality": 4
             },
             {
                 "name": "Might of Menethil",
-                "type": "Mace",
-                "slot": "Two Hand",
+                "type": "2H Mace",
                 "minDamage": 289,
                 "maxDamage": 435,
                 "speed": 3.80,
@@ -6730,9 +6341,59 @@
                 "quality": 4
             },
             {
+                "name": "Hammer of the Twisting Nether",
+                "type": "1H Mace",
+                "minDamage": 36,
+                "maxDamage": 120,
+                "speed": 1.90,
+                "stamina": 8,
+                "intellect": 11,
+                "healingpower": 238,
+                "mp5": 8,
+                "quality": 4
+            },
+                        {
+                "name": "Checkmate",
+                "type": "2H Mace",
+                "minDamage": 273,
+                "maxDamage": 419,
+                "speed": 3.70,
+                "agility": 40,
+                "stamina": 25,
+                "haste": 2,
+                "armorpen": 40,
+                "quality": 4
+            },
+            {
+                "name": "Desecration",
+                "type": "1H Sword",
+                "minDamage": 106,
+                "maxDamage": 193,
+                "speed": 2.20,
+                "stamina": 16,
+                "intellect": 11,
+                "spellpower": 128,
+                "healingpower": 128,
+                "meleehaste": 2,
+                "spellhaste": 2,
+                "quality": 4
+            },
+            {
+                "name": "Comet Signaller",
+                "type": "1H Mace",
+                "minDamage": 62,
+                "maxDamage": 137,
+                "speed": 2.30,
+                "stamina": 15,
+                "intellect": 15,
+                "spellpower": 140,
+                "healingpower": 140,
+                "spellpen": 10,
+                "quality": 4
+            },
+            {
                 "name": "Blade of Infinite Mysteries",
-                "type": "Sword",
-                "slot": "Main Hand",
+                "type": "1H Sword",
                 "minDamage": 50,
                 "maxDamage": 108,
                 "speed": 1.90,
@@ -6740,22 +6401,20 @@
                 "intellect": 6,
                 "spellhit": 1,
                 "spellpower": 37,
-                "healing": 37,
-                "quality": 4,
-                "unique": true
+                "healingpower": 37,
+                "quality": 4
             },
             {
                 "name": "Sageblade",
-                "type": "Sword",
-                "slot": "Main Hand",
+                "type": "1H Sword",
                 "minDamage": 49,
                 "maxDamage": 100,
                 "speed": 1.80,
                 "stamina": 14,
                 "intellect": 6,
                 "spellpower": 20,
-                "healing": 20,
-                "spellresistancereduction": 10,
+                "healingpower": 20,
+                "spellpen": 10,
                 "quality": 4
             }
         ]
@@ -6764,193 +6423,57 @@
         "Class": "Off-Hands",
         "items": [
             {
-                "name": "Thaurissan's Royal Scepter",
-                "type": "Off-Hand",
-                "stamina": 5,
-                "intellect": 5,
-                "spirit": 10,
-                "quality": 3,
-                "healing": 22
-            },
-            {
-                "name": "Dreadguard's Protector",
-                "type": "Shield",
-                "armor": 2121,
-                "block": 39,
-                "strength": 18,
-                "stamina": 5,
-                "quality": 3
-            },
-            {
                 "name": "Barrier Shield",
                 "type": "Shield",
                 "armor": 2121,
-                "block": 39,
-                "blockChance": 2,
-                "blockvalue": 18,
-                "quality": 3
-            },
-            {
-                "name": "Observer's Shield",
-                "type": "Shield",
-                "armor": 2089,
-                "block": 38,
-                "stamina": 9,
-                "intellect": 14,
-                "spirit": 5,
-                "quality": 3
-            },
-            {
-                "name": "Brightly Glowing Stone",
-                "type": "Off-Hand",
-                "stamina": 7,
-                "healing": 37,
-                "quality": 3
-            },
-            {
-                "name": "Intricately Runed Shield",
-                "type": "Shield",
-                "armor": 2121,
-                "block": 39,
-                "stamina": 8,
-                "blockvalue": 24,
-                "quality": 3
-            },
-            {
-                "name": "Rattlecage Buckler",
-                "type": "Shield",
-                "armor": 2121,
-                "block": 39,
-                "stamina": 7,
-                "intellect": 12,
-                "spirit": 7,
-                "shadowResistance": 7,
-                "quality": 3
-            },
-            {
-                "name": "Lord Blackwood's Buckler",
-                "type": "Shield",
-                "armor": 2121,
-                "block": 39,
-                "stamina": 10,
-                "blockvalue": 27,
-                "quality": 3
-            },
-            {
-                "name": "Rhombeard Protector",
-                "type": "Shield",
-                "armor": 2089,
-                "block": 38,
-                "intellect": 15,
-                "spirit": 10,
-                "quality": 3
-            },
-            {
-                "name": "Draconian Deflector",
-                "type": "Shield",
-                "armor": 2153,
-                "block": 40,
-                "stamina": 7,
-                "fireResistance": 10,
-                "defense": 10,
+                "blockvalue": 57,
+                "block": 2,
                 "quality": 3
             },
             {
                 "name": "Draconian Aegis of the Legion",
                 "type": "Shield",
                 "armor": 2153,
-                "block": 40,
+                "blockvalue": 40,
                 "stamina": 7,
                 "spellpower": 20,
-                "healing": 20,
+                "healingpower": 20,
                 "quality": 3
-            },
-            {
-                "name": "Bonewall",
-                "type": "Shield",
-                "armor": 2206,
-                "block": 42,
-                "strength": 5,
-                "stamina": 14,
-                "shadowResistance": 5,
-                "defense": 7,
-                "quality": 3
-            },
-            {
-                "name": "Bulwark of the Crimson Guard",
-                "type": "Shield",
-                "armor": 2243,
-                "block": 43,
-                "stamina": 8,
-                "intellect": 8,
-                "shadowResistance": 10,
-                "spellpower": 12,
-                "healing": 12,
-                "spellpen": 10,
-                "quality": 3
-            },
-            {
-                "name": "Jin'do's Bag of Whammies",
-                "type": "Off-Hand",
-                "stamina": 8,
-                "intellect": 11,
-                "quality": 4,
-                "spellpower": 18,
-                "spellhit": 1
             },
             {
                 "name": "Aegis of the Blood God",
                 "type": "Shield",
                 "armor": 2575,
-                "block": 47,
+                "blockvalue": 77,
                 "quality": 4,
-                "blockvalue": 30,
                 "defense": 7,
-                "blockchance": 2
-            },
-            {
-                "name": "Talon of Furious Concentration",
-                "type": "Off-Hand",
-                "stamina": 8,
-                "intellect": 8,
-                "quality": 3,
-                "spellpower": 21,
-                "healing": 21,
-                "spellcrit": 1
+                "block": 2
             },
             {
                 "name": "Buru's Skull Fragment",
                 "type": "Shield",
                 "armor": 2575,
-                "block": 47,
+                "blockvalue": 47,
                 "strength": 11,
                 "stamina": 20,
-                "quality": 3,
-                "defense": 6
-            },
-            {
-                "name": "Fire Runed Grimoire",
-                "type": "Held In Off-hand",
-                "stamina": 12,
-                "intellect": 8,
                 "quality": 4,
-                "spellpower": 29
+                "defense": 6
             },
             {
                 "name": "Drillborer Disk",
                 "type": "Shield",
                 "armor": 2539,
-                "block": 46,
+                "blockvalue": 69,
                 "stamina": 10,
                 "quality": 4,
-                "blockchance": 2,
-                "blockvalue": 23
+                "block": 2,
+                "arcanethorns": 3
             },
             {
                 "name": "Malistar's Defender",
                 "type": "Shield",
                 "armor": 2822,
-                "block": 52,
+                "blockvalue": 52,
                 "stamina": 9,
                 "intellect": 12,
                 "quality": 4,
@@ -6960,39 +6483,21 @@
                 "name": "Red Dragonscale Protector",
                 "type": "Shield",
                 "armor": 2787,
-                "block": 51,
+                "blockvalue": 51,
                 "stamina": 6,
                 "intellect": 17,
                 "spirit": 6,
                 "quality": 4,
-                "healing": 37
+                "healingpower": 37
             },
             {
                 "name": "Elementium Reinforced Bulwark",
                 "type": "Shield",
                 "armor": 2893,
-                "block": 54,
+                "blockvalue": 73,
                 "stamina": 23,
                 "quality": 4,
-                "blockvalue": 19,
                 "defense": 7
-            },
-            {
-                "name": "Sigil of the Brood",
-                "type": "Held In Off-hand",
-                "stamina": 8,
-                "intellect": 8,
-                "quality": 4,
-                "spellpower": 18,
-                "spellcrit": 1
-            },
-            {
-                "name": "Master Dragonslayer's Orb",
-                "type": "Held In Off-hand",
-                "stamina": 8,
-                "intellect": 12,
-                "quality": 4,
-                "spellpower": 34
             },
             {
                 "name": "Scaleshield of Emerald Flight",
@@ -7011,34 +6516,30 @@
                 "name": "Jadestone Protector",
                 "type": "Shield",
                 "armor": 3035,
-                "block": 57,
+                "blockvalue": 75,
                 "stamina": 14,
                 "intellect": 13,
                 "quality": 4,
-                "defense": 8,
-                "blockvalue": 18,
-                "criticalDamageReduction": 3
+                "defense": 8
             },
             {
                 "name": "Blessed Qiraji Bulwark",
                 "type": "Shield",
-                "unique": true,
                 "armor": 2964,
-                "block": 55,
+                "blockvalue": 70,
                 "stamina": 20,
                 "quality": 4,
-                "blockchance": 3,
-                "blockvalue": 15,
+                "block": 3,
                 "defense": 8
             },
             {
                 "name": "Wormscale Blocker",
                 "type": "Shield",
                 "armor": 3035,
-                "block": 57,
+                "blockvalue": 57,
                 "stamina": 10,
                 "intellect": 13,
-                "healing": 35,
+                "healingpower": 35,
                 "mp5": 6,
                 "quality": 4
             },
@@ -7046,30 +6547,27 @@
                 "name": "Bulwark of Enduring Earth",
                 "type": "Shield",
                 "armor": 3565,
-                "block": 68,
+                "blockvalue": 92,
                 "stamina": 24,
-                "blockchance": 2,
-                "blockvalue": 24,
-                "unique": true,
+                "block": 2,
                 "quality": 4
             },
             {
                 "name": "Nethraka, Wing of Oblivion",
                 "type": "Shield",
                 "armor": 3563,
-                "block": 72,
+                "blockvalue": 72,
                 "stamina": 13,
                 "intellect": 13,
-                "healing": 70,
+                "healingpower": 70,
                 "mp5": 5,
-                "unique": true,
                 "quality": 4
             },
             {
                 "name": "The Plague Bearer",
                 "type": "Shield",
                 "armor": 3106,
-                "block": 59,
+                "blockvalue": 59,
                 "stamina": 21,
                 "frostResistance": 15,
                 "defense": 9,
@@ -7079,11 +6577,11 @@
                 "name": "Death's Bargain",
                 "type": "Shield",
                 "armor": 3106,
-                "block": 59,
+                "blockvalue": 59,
                 "stamina": 12,
                 "intellect": 12,
-                "spellcrit": 14,
-                "healing": 29,
+                "spellcrit": 1,
+                "healingpower": 29,
                 "mp5": 4,
                 "quality": 4
             },
@@ -7091,44 +6589,43 @@
                 "name": "The Face of Death",
                 "type": "Shield",
                 "armor": 3494,
-                "block": 66,
+                "blockvalue": 87,
                 "stamina": 21,
-                "blockchance": 3,
-                "blockvalue": 21,
+                "block": 3,
                 "quality": 4
             },
             {
                 "name": "Shield of Condemnation",
                 "type": "Shield",
                 "armor": 3425,
-                "block": 68,
+                "blockvalue": 68,
                 "stamina": 10,
                 "intellect": 10,
                 "mp5": 6,
-                "healing": 59,
+                "healingpower": 59,
                 "quality": 4
             },
             {
                 "name": "Shell of the Great Sleeper",
                 "type": "Shield",
                 "armor": 2853,
-                "block": 53,
+                "blockvalue": 53,
                 "stamina": 7,
                 "intellect": 9,
                 "spirit": 14,
-                "healing": 37,
+                "healingpower": 37,
                 "quality": 4
             },
             {
                 "name": "Shield of Consuming Darkness",
                 "type": "Shield",
                 "armor": 2504,
-                "block": 45,
+                "blockvalue": 45,
                 "stamina": 6,
                 "intellect": 6,
                 "spirit": -10,
                 "spellpower": 18,
-                "healing": 18,
+                "healingpower": 18,
                 "mp5": 4,
                 "quality": 4
             },
@@ -7136,37 +6633,47 @@
                 "name": "Clamshell of the Depths",
                 "type": "Shield",
                 "armor": 2504,
-                "block": 45,
+                "blockvalue": 45,
                 "intellect": 9,
                 "spellcrit": 1,
                 "spellpower": 21,
-                "healing": 21,
-                "quality": 4,
-                "unique": true
+                "healingpower": 21,
+                "quality": 4
             },
             {
                 "name": "Time-Shifting Wheel",
                 "type": "Shield",
                 "armor": 2468,
-                "block": 44,
+                "blockvalue": 44,
                 "stamina": 10,
                 "intellect": 10,
-                "blockvalue": 21,
-                "healing": 33,
-                "quality": 4,
-                "unique": true
+                "healingpower": 33,
+                "quality": 4
             },
             {
                 "name": "Jagged Obsidian Shield",
                 "type": "Shield",
                 "armor": 2645,
-                "block": 48,
-                "blockchance": 2,
+                "blockvalue": 48,
+                "block": 2,
                 "arcaneResistance": 5,
                 "fireResistance": 5,
                 "natureResistance": 5,
                 "frostResistance": 5,
                 "shadowResistance": 5,
+                "quality": 4
+            },
+            {
+                "name": "Hyperchromatic Deflector",
+                "type": "Shield",
+                "armor": 2504,
+                "blockvalue": 45,
+                "stamina": 10,
+                "arcaneResistance": 8,
+                "fireResistance": 8,
+                "natureResistance": 8,
+                "frostResistance": 8,
+                "shadowResistance": 8,
                 "quality": 4
             }
         ]
@@ -7183,7 +6690,6 @@
                 "intellect": 200,
                 "shadowResistance": 200,
                 "spellpower": 200,
-                "healing": 200,
                 "spellpen": 200,
                 "health": 200,
                 "mana": 200,

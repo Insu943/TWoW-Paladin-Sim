@@ -1345,6 +1345,7 @@ body.loaded * {
     flex: 1;
     overflow-y: auto;
     padding: 10px;
+    padding-bottom: 50px !important; /* Ensure bottom padding to prevent cut-off */
 }
 
 .item-option {
@@ -2209,6 +2210,12 @@ body::before {
     
 .stat-dropdown .stat-row:last-child {
     border-bottom: none;
+}
+
+/* Item list specific styling */
+#item-list {
+    padding-bottom: 50px !important; /* Ensure bottom padding to prevent cut-off */
+    max-height: 500px !important; /* Fixed height that fits within popup */
 }
 
 /* Custom scrollbar styling for item menus */

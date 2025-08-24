@@ -366,6 +366,7 @@ function showEnhancedFilterMenu(slotType, slotElement, items) {
                 'Melee Stats': ['Attack Power', 'Melee Crit', 'Melee Hit', 'Armor Pen', 'Melee Haste'],
                 'Spell Stats': ['Healing Power', 'Spell Power', 'Spell Pen', 'Spell Hit', 'Spell Crit', 'Spell Haste'],
                 'Defensive Stats': ['Defense', 'Block Value', 'Block', 'Parry', 'Dodge'],
+                'Type': ['Plate', 'Mail', 'Leather', 'Cloth', '1H Sword', '1H Mace', '1H Axe', '2H Polearm', '2H Sword', '2H Mace'],
                 'Resistances': ['Fire Res', 'Nature Res', 'Arcane Res', 'Frost Res', 'Shadow Res'],
                 'Weapon Skills': ['Axes', 'Maces', 'Polearms', 'Swords', 'Two-Handed Swords', 'Two-Handed Maces'],
                 'Misc Stats': ['Vampirism', 'MP5', 'Spellstrike', 'Thorns']
@@ -579,7 +580,8 @@ function showEnhancedFilterMenu(slotType, slotElement, items) {
         itemList.style.overflowY = 'auto';
         itemList.style.overflowX = 'hidden';
         itemList.style.minHeight = '300px';
-        itemList.style.maxHeight = 'calc(100vh - 250px)';
+        itemList.style.maxHeight = '500px'; // Fixed height that fits within 750px popup
+        itemList.style.paddingBottom = '50px'; // Add margin at bottom to prevent cut-off
 
         itemContainer.appendChild(headerRow);
         
@@ -708,7 +710,8 @@ function getCategoryStats(categoryName) {
         'Defensive Stats': ['Defense', 'Block Value', 'Block', 'Parry', 'Dodge'],
         'Resistances': ['Fire Res', 'Nature Res', 'Arcane Res', 'Frost Res', 'Shadow Res'],
         'Weapon Skills': ['Axes', 'Maces', 'Polearms', 'Swords', 'Two-Handed Swords', 'Two-Handed Maces'],
-        'Misc Stats': ['Vampirism', 'MP5', 'Spellstrike', 'Thorns']
+        'Misc Stats': ['Vampirism', 'MP5', 'Spellstrike', 'Thorns'],
+        'Type': ['Plate', 'Mail', 'Leather', 'Cloth', '1H Sword', '1H Mace', '1H Axe', '2H Polearm', '2H Sword', '2H Mace']
     };
      
     return statCategories[categoryName] || [];
@@ -1082,6 +1085,20 @@ function filterItemsByStat(items, statName) {
         return items;
     }
     
+    // Handle Type filtering specially
+    const typeFilters = ['Plate', 'Mail', 'Leather', 'Cloth', '1H Sword', '1H Mace', '1H Axe', '2H Polearm', '2H Sword', '2H Mace'];
+    if (typeFilters.includes(statName)) {
+        console.log('[DEBUG] filterItemsByStat filtering by type:', statName);
+        return items.filter(item => {
+            const itemType = getItemType(item);
+            const matches = itemType === statName;
+            if (matches) {
+                console.log('[DEBUG] Item', item.name, 'matches type', statName);
+            }
+            return matches;
+        });
+    }
+    
     // Convert display name to internal stat name
     const statMap = {
         'Attack Power': 'attackpower',
@@ -1318,6 +1335,79 @@ function createItemOption(item, slotType, isEnchant = false) {
     
     return option;
 }
+
+// Function to determine item type for filtering
+// Function to determine item type for filtering
+function getItemType(item) {
+    if (!item) return '';
+    
+    console.log('[DEBUG] getItemType called for item:', item.name, 'type:', item.type, 'weaponType:', item.weaponType, 'twoHanded:', item.twoHanded);
+    
+    // Check for common item type field first (most reliable)
+    if (item.type) {
+        const type = item.type.toLowerCase();
+        
+        // Direct type matches
+        if (type === '2h mace' || type === '2h-mace' || type === 'two-hand mace' || type === 'two-handed mace') return '2H Mace';
+        if (type === '2h sword' || type === '2h-sword' || type === 'two-hand sword' || type === 'two-handed sword') return '2H Sword';
+        if (type === '2h axe' || type === '2h-axe' || type === 'two-hand axe' || type === 'two-handed axe') return '2H Axe';
+        if (type === 'polearm' || type === '2h polearm') return '2H Polearm';
+        
+        if (type === '1h mace' || type === '1h-mace' || type === 'one-hand mace' || type === 'one-handed mace') return '1H Mace';
+        if (type === '1h sword' || type === '1h-sword' || type === 'one-hand sword' || type === 'one-handed sword') return '1H Sword';
+        if (type === '1h axe' || type === '1h-axe' || type === 'one-hand axe' || type === 'one-handed axe') return '1H Axe';
+        
+        // Generic armor types
+        if (type.includes('plate')) return 'Plate';
+        if (type.includes('mail')) return 'Mail';
+        if (type.includes('leather')) return 'Leather';
+        if (type.includes('cloth')) return 'Cloth';
+        
+        // Fallback weapon type detection
+        if (type.includes('sword')) return item.twoHanded ? '2H Sword' : '1H Sword';
+        if (type.includes('mace')) return item.twoHanded ? '2H Mace' : '1H Mace';
+        if (type.includes('axe')) return item.twoHanded ? '2H Axe' : '1H Axe';
+        if (type.includes('polearm')) return '2H Polearm';
+    }
+    
+    // Check for weapon types with twoHanded property
+    if (item.weaponType) {
+        const weaponTypeMap = {
+            'sword': item.twoHanded ? '2H Sword' : '1H Sword',
+            'mace': item.twoHanded ? '2H Mace' : '1H Mace',
+            'axe': item.twoHanded ? '2H Axe' : '1H Axe',
+            'polearm': '2H Polearm',
+            'staff': '2H Staff',
+            'dagger': '1H Dagger'
+        };
+        return weaponTypeMap[item.weaponType.toLowerCase()] || item.weaponType;
+    }
+    
+    // Check for armor types
+    if (item.armorType) {
+        const armorTypeMap = {
+            'plate': 'Plate',
+            'mail': 'Mail', 
+            'leather': 'Leather',
+            'cloth': 'Cloth'
+        };
+        return armorTypeMap[item.armorType.toLowerCase()] || item.armorType;
+    }
+    
+    // Check item name for type hints
+    if (item.name) {
+        const name = item.name.toLowerCase();
+        if (name.includes('plate')) return 'Plate';
+        if (name.includes('mail')) return 'Mail';
+        if (name.includes('leather')) return 'Leather';
+        if (name.includes('cloth')) return 'Cloth';
+    }
+    
+    return '';
+}
+
+// Make getItemType globally available for use in app.js
+window.getItemType = getItemType;
 
 // Replace the original function
 if (typeof showFilterMenu !== 'undefined') {
