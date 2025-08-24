@@ -1,0 +1,323 @@
+[
+    {
+        "Class": "Helmet",
+        "items": [
+            {
+                "name": "Arcanum of Focus",
+                "stats": {
+                    "spellpower": 8
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Arcanum of Rapidity",
+                "stats": {
+                    "meleehaste": 1
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Arcanum of Constitution",
+                "stats": {
+                    "health": 100
+                },
+                "quality": "uncommon"
+            }
+        ]
+    },
+    {
+        "Class": "Shoulders",
+        "items": [
+            {
+                "name": "Zandalar Signet of Might",
+                "stats": {
+                    "attackpower": 30
+                },
+                "quality": "rare"
+            },
+            {
+                "name": "Zandalar Signet of Mojo",
+                "stats": {
+                    "spellpower": 18
+                },
+                "quality": "rare"
+            },
+            {
+                "name": "Zandalar Signet of Serenity",
+                "stats": {
+                    "healingpower": 33
+                },
+                "quality": "rare"
+            }
+        ]
+    },
+    {
+        "Class": "Cloak",
+        "items": [
+            {
+                "name": "Enchant Cloak - Greater Resistance",
+                "stats": {
+                    "arcane": 5,
+                    "fire": 5,
+                    "frost": 5,
+                    "nature": 5,
+                    "shadow": 5
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Enchant Cloak - Stealth",
+                "stats": {
+                    "agility": 3
+                },
+                "quality": "common"
+            },
+            {
+                "name": "Enchant Cloak - Superior Defense",
+                "stats": {
+                    "armor": 70
+                },
+                "quality": "uncommon"
+            }
+        ]
+    },
+    {
+        "Class": "Chest",
+        "items": [
+            {
+                "name": "Enchant Chest - Greater Stats",
+                "stats": {
+                    "stamina": 4,
+                    "strength": 4,
+                    "agility": 4,
+                    "intellect": 4,
+                    "spirit": 4
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Enchant Chest - Major Health",
+                "stats": {
+                    "health": 100
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Enchant Chest - Major Mana",
+                "stats": {
+                    "mana": 100
+                },
+                "quality": "uncommon"
+            }
+        ]
+    },
+    {
+        "Class": "Wrist",
+        "items": [
+            {
+                "name": "Enchant Bracer - Superior Strength",
+                "stats": {
+                    "strength": 9
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Enchant Bracer - Mana Regeneration",
+                "stats": {
+                    "mp5": 4
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Enchant Bracer - Greater Intellect",
+                "stats": {
+                    "intellect": 7
+                },
+                "quality": "uncommon"
+            }
+        ]
+    },
+    {
+        "Class": "Gloves",
+        "items": [
+            {
+                "name": "Enchant Gloves - Superior Agility",
+                "stats": {
+                    "agility": 15
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Enchant Gloves - Greater Strength",
+                "stats": {
+                    "strength": 7
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Enchant Gloves - Threat",
+                "stats": {
+                    "attackpower": 2
+                },
+                "quality": "common"
+            }
+        ]
+    },
+    {
+        "Class": "Belt",
+        "items": [
+            {
+                "name": "Belt Buckle",
+                "stats": {
+                    "stamina": 10
+                },
+                "quality": "common"
+            }
+        ]
+    },
+    {
+        "Class": "Pants",
+        "items": [
+            {
+                "name": "Arcanum of Protection",
+                "stats": {
+                    "armor": 40
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Arcanum of the Gladiator",
+                "stats": {
+                    "stamina": 8,
+                    "dodge": 1
+                },
+                "quality": "rare"
+            }
+        ]
+    },
+    {
+        "Class": "Boots",
+        "items": [
+            {
+                "name": "Enchant Boots - Greater Agility",
+                "stats": {
+                    "agility": 7
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Enchant Boots - Greater Stamina",
+                "stats": {
+                    "stamina": 7
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Enchant Boots - Minor Speed",
+                "stats": {
+                    "meleehaste": 8
+                },
+                "quality": "common"
+            }
+        ]
+    },
+    {
+        "Class": "Ring",
+        "items": [
+            {
+                "name": "Enchant Ring - Stats",
+                "stats": {
+                    "stamina": 2,
+                    "strength": 2,
+                    "agility": 2,
+                    "intellect": 2,
+                    "spirit": 2
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Enchant Ring - Striking",
+                "stats": {
+                    "attackpower": 4
+                },
+                "quality": "common"
+            }
+        ]
+    },
+    {
+        "Class": "MainHand",
+        "items": [
+            {
+                "name": "Enchant Weapon - Crusader",
+                "stats": {
+                    "strength": 100,
+                    "healingpower": 75
+                },
+                "quality": "epic"
+            },
+            {
+                "name": "Enchant Weapon - Superior Striking",
+                "stats": {
+                    "attackpower": 5
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Enchant Weapon - Spell Power",
+                "stats": {
+                    "spellpower": 30
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Enchant Weapon - Healing Power",
+                "stats": {
+                    "healingpower": 55
+                },
+                "quality": "uncommon"
+            }
+        ]
+    },
+    {
+        "Class": "OffHand",
+        "items": [
+            {
+                "name": "Enchant Shield - Greater Stamina",
+                "stats": {
+                    "stamina": 7
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Enchant Shield - Superior Spirit",
+                "stats": {
+                    "spirit": 9
+                },
+                "quality": "uncommon"
+            },
+            {
+                "name": "Enchant Shield - Vitality",
+                "stats": {
+                    "mp5": 4
+                },
+                "quality": "uncommon"
+            }
+        ]
+    },
+    {
+        "Class": "Neck",
+        "items": [
+            {
+                "name": "Enchant Neck - Stats",
+                "stats": {
+                    "stamina": 3,
+                    "strength": 3,
+                    "agility": 3,
+                    "intellect": 3,
+                    "spirit": 3
+                },
+                "quality": "uncommon"
+            }
+        ]
+    }
+]

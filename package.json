@@ -1,0 +1,44 @@
+{
+  "name": "twow-paladin-simulator",
+  "version": "1.0.0",
+  "description": "TWoW Paladin Simulator",
+  "main": "electron.js",
+  "scripts": {
+    "start": "electron .",
+    "clean": "powershell -Command \"if (Test-Path 'dist') { Remove-Item 'dist' -Recurse -Force }; if (Test-Path 'dist_new') { Remove-Item 'dist_new' -Recurse -Force }; if (Test-Path 'build') { Remove-Item 'build' -Recurse -Force }\"",
+    "postbuild": "powershell -Command \"Get-ChildItem 'build' -Filter '*.blockmap' | Remove-Item -Force\"",
+    "prebuild": "npm run clean",
+    "build": "electron-builder --publish never",
+    "build:win": "electron-builder --win --publish never",
+    "dist": "electron-builder --publish=never"
+  },
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.twow.paladin-simulator",
+    "productName": "TWoW Paladin Simulator",
+    "compression": "store",
+    "removePackageScripts": true,
+    "buildDependenciesFromSource": false,
+    "nodeGypRebuild": false,
+    "npmRebuild": false,
+    "directories": {
+      "output": "build"
+    },
+    "files": [
+      "src/**/*",
+      "data/**/*",
+      "assets/**/*",
+      "electron.js",
+      "package.json"
+    ],
+    "win": {
+      "target": {
+        "target": "dir",
+        "arch": ["x64"]
+      }
+    }
+  }
+}
