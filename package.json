@@ -6,10 +6,10 @@
   "scripts": {
     "start": "electron .",
     "clean": "powershell -Command \"if (Test-Path 'dist') { Remove-Item 'dist' -Recurse -Force }; if (Test-Path 'dist_new') { Remove-Item 'dist_new' -Recurse -Force }; if (Test-Path 'build') { Remove-Item 'build' -Recurse -Force }\"",
-    "postbuild": "powershell -Command \"Get-ChildItem 'build' -Filter '*.blockmap' | Remove-Item -Force\"",
+    "postbuild": "powershell -Command \"Get-ChildItem 'build' -Filter '*.yml' | Remove-Item -Force; Get-ChildItem 'build' -Filter '*.yaml' | Remove-Item -Force\"",
     "prebuild": "npm run clean",
     "build": "electron-builder --publish never",
-    "build:win": "electron-builder --win --publish never",
+    "build:win": "electron-builder --win --publish never && npm run postbuild",
     "dist": "electron-builder --publish=never"
   },
   "devDependencies": {

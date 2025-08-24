@@ -84,21 +84,28 @@ function createWindow() {
         },
         title: 'TWoW Paladin Simulator',
         show: false,
+        backgroundColor: '#1a1a2e',
+        useContentSize: true,
+        thickFrame: false,
+        frame: true,
+        titleBarStyle: 'default',
         icon: path.join(__dirname, 'assets', 'icons', 'titleicon.png')
     });
 
+    // Load file and then wait before showing
     const indexPath = path.join(__dirname, 'src', 'index.html');
-    mainWindow.loadFile(indexPath);
-
-    mainWindow.once('ready-to-show', () => {
-        mainWindow.show();
-        
-        console.log('App is packaged:', app.isPackaged);
-        console.log('Resources path:', process.resourcesPath);
-        console.log('App path:', app.getAppPath());
-        console.log('User data path:', app.getPath('userData'));
-        console.log('Presets path:', getPresetsPath());
-        console.log('Database path:', getDatabasePath());
+    mainWindow.loadFile(indexPath).then(() => {
+        // Wait 1 second before showing window
+        setTimeout(() => {
+            mainWindow.show();
+            
+            console.log('App is packaged:', app.isPackaged);
+            console.log('Resources path:', process.resourcesPath);
+            console.log('App path:', app.getAppPath());
+            console.log('User data path:', app.getPath('userData'));
+            console.log('Presets path:', getPresetsPath());
+            console.log('Database path:', getDatabasePath());
+        }, 1000);
     });
 
     // Restore Ctrl+Shift+D DevTools command and remove default menu bar

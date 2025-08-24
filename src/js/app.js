@@ -123,6 +123,9 @@ window.unequipAllGear = function() {
 
 // Confirmation modal logic
 document.addEventListener('DOMContentLoaded', function() {
+    // Add loaded class immediately since window won't show until delay is over
+    document.body.classList.add('loaded');
+
     if (typeof window.renderStatBlock === 'function') {
         window.renderStatBlock({
             health: 0,

@@ -1,3 +1,29 @@
+/* CRITICAL: Prevent flash of unstyled content - must be first */
+html {
+    background-color: #1a1a2e !important;
+    background: #1a1a2e !important;
+}
+
+body {
+    background-color: #1a1a2e !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+body.loaded {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Hide everything until loaded */
+* {
+    visibility: hidden !important;
+}
+
+body.loaded * {
+    visibility: visible !important;
+}
+
 .save-preset-btn {
     display: block;
     margin: 12px auto 0 auto;
