@@ -4,17 +4,12 @@ A tool to simulate paladins in TWOW.
 
 ## Installation
 
-### Option 1: Using Setup (Recommended)
+### Easy Setup (Recommended)
 1. Download the repository
-2. Install [Node.js](https://nodejs.org/) if you don't have it
-3. Run `setup.exe` (or `setup.bat` if no .exe available)
-4. The setup will build the simulator for you
-5. Run the simulator from `build\win-unpacked\TWoW Paladin Simulator.exe`
+2. Run `TWoW Paladin Simulator Setup 1.0.0.exe`
+3. Follow the installer prompts
+4. The simulator will be ready to use!
 
-### Option 2: Manual Build
-1. Download the repository
-2. Install [Node.js](https://nodejs.org/)
-3. Open terminal in project folder
-4. Run: `npm install`
-5. Run: `npm run build:win`
-6. Run: `build\win-unpacked\TWoW Paladin Simulator.exe` 
+### Alternative Setup Methods
+- **Build Setup**: Run `setup.exe` (requires Node.js)
+- **Manual Build**: Install Node.js, then run `npm install` and `npm run build:win` 
