@@ -6,8 +6,13 @@ build/
 dist/
 release/
 
+# Standalone versions
+TWoW-Paladin-Simulator-Standalone/
+Launch-TWoW-Paladin-Simulator.bat
+
 # Setup files
 setup.sed
+launcher.sed
 
 # Logs
 *.log
