@@ -57,7 +57,13 @@
       "perMachine": false,
       "installerHeaderIcon": "assets/icons/titleicon.png",
       "menuCategory": "Games",
-      "include": "installer-script.nsh"
+      "include": "installer-script.nsh",
+      "displayLanguageSelector": false,
+      "artifactName": "TWoW Paladin Simulator Setup.exe",
+      "warningsAsErrors": false,
+      "deleteAppDataOnUninstall": false,
+      "guid": "TWoW-Paladin-Simulator",
+      "unicode": true
     }
   }
 }
