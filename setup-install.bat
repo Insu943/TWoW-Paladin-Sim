@@ -71,19 +71,20 @@ if %errorlevel% neq 0 (
 :copy_exe
 if exist "build\win-unpacked\TWoW Paladin Simulator.exe" (
     echo.
-    echo Copying built executable to main directory for easy access...
-    copy "build\win-unpacked\TWoW Paladin Simulator.exe" "TWoW-Paladin-Simulator.exe"
+    echo Copying built application to main directory for easy access...
     
-    :: Also copy required DLLs if needed
-    if exist "build\win-unpacked\ffmpeg.dll" (
-        copy "build\win-unpacked\ffmpeg.dll" "."
-    )
-    if exist "build\win-unpacked\libEGL.dll" (
-        copy "build\win-unpacked\libEGL.dll" "."
-    )
-    if exist "build\win-unpacked\libGLESv2.dll" (
-        copy "build\win-unpacked\libGLESv2.dll" "."
-    )
+    :: Create a standalone folder for the app
+    if not exist "TWoW-Paladin-Simulator" mkdir "TWoW-Paladin-Simulator"
+    
+    :: Copy all necessary files
+    copy "build\win-unpacked\*" "TWoW-Paladin-Simulator\" /Y
+    
+    :: Create a simple launcher in the main directory
+    echo @echo off > "Launch-TWoW-Paladin-Simulator.bat"
+    echo cd /d "TWoW-Paladin-Simulator" >> "Launch-TWoW-Paladin-Simulator.bat"
+    echo start "" "TWoW Paladin Simulator.exe" >> "Launch-TWoW-Paladin-Simulator.bat"
+    
+    echo All files copied to TWoW-Paladin-Simulator folder!
 )
 
 :: Clean up temp files
@@ -96,12 +97,14 @@ echo ===============================================
 echo.
 echo The TWoW Paladin Simulator has been built successfully!
 echo.
-echo To start: Double-click "TWoW-Paladin-Simulator.exe"
+echo To start: Double-click "Launch-TWoW-Paladin-Simulator.bat"
+echo Or go to the TWoW-Paladin-Simulator folder and run "TWoW Paladin Simulator.exe"
 echo.
 pause
 
 :: Optionally auto-launch
-if exist "TWoW-Paladin-Simulator.exe" (
+if exist "TWoW-Paladin-Simulator\TWoW Paladin Simulator.exe" (
     echo Starting simulator...
-    start "" "TWoW-Paladin-Simulator.exe"
+    cd "TWoW-Paladin-Simulator"
+    start "" "TWoW Paladin Simulator.exe"
 )

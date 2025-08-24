@@ -13,7 +13,9 @@ temp/
 # Portable setup files
 portable/
 downloads/
+TWoW-Paladin-Simulator/
 TWoW-Paladin-Simulator.exe
+Launch-TWoW-Paladin-Simulator.bat
 *.dll
 
 # Logs
