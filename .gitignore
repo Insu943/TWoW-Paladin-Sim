@@ -10,6 +10,12 @@ release/
 # Setup temporary files
 temp/
 
+# Portable setup files
+portable/
+downloads/
+TWoW-Paladin-Simulator.exe
+*.dll
+
 # Logs
 *.log
 npm-debug.log*
