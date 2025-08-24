@@ -5,6 +5,7 @@
   "main": "electron.js",
   "scripts": {
     "start": "electron .",
+    "setup": "npm install && npm run build:win",
     "clean": "powershell -Command \"if (Test-Path 'dist') { Remove-Item 'dist' -Recurse -Force }; if (Test-Path 'dist_new') { Remove-Item 'dist_new' -Recurse -Force }; if (Test-Path 'build') { Remove-Item 'build' -Recurse -Force }\"",
     "postbuild": "powershell -Command \"Get-ChildItem 'build' -Filter '*.yml' | Remove-Item -Force; Get-ChildItem 'build' -Filter '*.yaml' | Remove-Item -Force\"",
     "prebuild": "npm run clean",
